@@ -1,4 +1,5 @@
-function FindProxyForUrl_1(url, host)
+/*
+function FindProxyForUrl(url, host)
 {
     if (dnsDomainIs(host, ".iqiyi.com") ||
         dnsDomainIs(host, ".qiyi.com") ||
@@ -7,6 +8,7 @@ function FindProxyForUrl_1(url, host)
         return "PROXY proxy.uku.im:443";
     return "DIRECT";
 }
+*/
 
 function FindProxyForUrl(url, host)
 {
