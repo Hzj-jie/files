@@ -1,0 +1,2 @@
+gn-debug
+gn-release
