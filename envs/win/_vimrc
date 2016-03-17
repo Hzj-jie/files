@@ -48,3 +48,5 @@ imap <F7> "set nowrap<CR>
 map <F8> :set wrap<CR>
 imap <F8> :set wrap<CR>
 
+:highlight comment ctermfg=8
+:highlight preproc ctermfg=11
