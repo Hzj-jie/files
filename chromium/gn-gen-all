@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$(dirname "$(realpath "$0")")/gn-debug
+$(dirname "$(realpath "$0")")/gn-release
