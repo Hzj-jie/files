@@ -14,5 +14,5 @@ function FindProxyForUrl(url, host)
 {
     if (isPlainHostName(host))
         return "DIRECT";
-    return "PROXY proxy.uku.im:443";
+    return "SOCKS5 sha-1-azure-zijiehe.myalauda.cn:10717";
 }
