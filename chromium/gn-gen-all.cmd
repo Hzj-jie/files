@@ -1,2 +1,2 @@
-gn-debug
-gn-release
+call gn-debug
+call gn-release
