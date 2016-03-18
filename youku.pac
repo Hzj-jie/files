@@ -10,9 +10,7 @@ function FindProxyForUrl(url, host)
 }
 */
 
-function FindProxyForUrl(url, host)
+function FindProxyForURL(url, host)
 {
-    if (isPlainHostName(host))
-        return "DIRECT";
     return "SOCKS sha-1-azure-zijiehe.myalauda.cn:10717";
 }
