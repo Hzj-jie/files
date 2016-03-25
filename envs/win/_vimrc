@@ -38,6 +38,7 @@ endfunction
 :set nowrap
 :set number
 :set smc=200
+:set colorcolumn=80
 
 map <C-Tab> :tabnext<CR>
 imap <C-Tab> <ESC>:tabnext<CR>i
