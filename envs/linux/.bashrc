@@ -131,3 +131,5 @@ shopt -s histappend
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
+
+alias ssh-password='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
