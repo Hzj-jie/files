@@ -115,21 +115,25 @@ fi
 
 export EDITOR='vim'
 
-git() {
-    if [[ $1 == 'merge' ]]
-        then
-            echo 'Use git5 merge, not git merge. git merge does not understand how to merge the READONLY link and it can corrupt your branch, so stay away from it.  type "unset -f git" to remove this warning';
-        else
-            command git "$@"
-        fi
-    }
-
 export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=99999999
 export HISTFILESIZE=99999999
 shopt -s histappend
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
-export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
-
 alias ssh-password='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
+
+git5 --help > /dev/null
+if [ $? -eq 127 ]
+then
+  git() {
+      if [[ $1 == 'merge' ]]
+          then
+              echo 'Use git5 merge, not git merge. git merge does not understand how to merge the READONLY link and it can corrupt your branch, so stay away from it.  type "unset -f git" to remove this warning';
+          else
+              command git "$@"
+          fi
+      }
+
+  export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
+fi
