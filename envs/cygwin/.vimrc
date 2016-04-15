@@ -30,14 +30,14 @@ endfunction
 
 :set tabstop=4
 :set softtabstop=4
-:set shiftwidth=4
+:set shiftwidth=2
 :set nobackup
-:set fileencodings=ucs-bom,utf-8,utf-16,gb18030,big5
+:set fileencodings=utf-8,utf-16,gb18030,big5
 :set fenc=utf-8
 :set expandtab
 :set nowrap
 :set number
-" :set smc=200
+:set colorcolumn=80
 
 map <C-Tab> :tabnext<CR>
 imap <C-Tab> <ESC>:tabnext<CR>i
@@ -47,4 +47,6 @@ imap <F7> "set nowrap<CR>
 
 map <F8> :set wrap<CR>
 imap <F8> :set wrap<CR>
+
+:hi Comment ctermfg=LightBlue
 
