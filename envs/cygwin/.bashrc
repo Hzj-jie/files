@@ -200,3 +200,7 @@
 alias ll='ls -alF'
 alias vi='vim'
 
+if [ -d "/cygdrive/d/src/zijiehe/chromium/depot_tools" ]
+then
+  alias cmd-chromium='cmd /k "PATH=d:\src\zijiehe\chromium\depot_tools;%PATH%"'
+fi
