@@ -124,7 +124,7 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 alias ssh-password='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
 
 git5 --help > /dev/null 2>&1
-if [ $? -eq 127 ]
+if [ $? -ne 127 ]
 then
   git() {
       if [[ $1 == 'merge' ]]
