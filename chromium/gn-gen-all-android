@@ -1,0 +1,4 @@
+#!/bin/sh
+
+$(dirname "$(realpath "$0")")/gn-debug-android
+$(dirname "$(realpath "$0")")/gn-release-android
