@@ -137,3 +137,6 @@ then
 
   export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
 fi
+
+# PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools:~/git/android-ndk/build/bin
+PATH=$PATH:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin
