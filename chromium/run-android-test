@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ninja -C out/GNRelease/ remoting_test_apk remoting_apk ; out/GNRelease/bin/run_remoting_test_apk
