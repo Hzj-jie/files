@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ninja -C out/GNDebug remoting_apk ; build/android/adb_install_apk.py --apk=out/GNDebug/apks/Chromoting.apk
