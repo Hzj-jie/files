@@ -1,0 +1,7 @@
+#!/bin/sh
+
+pushd ~ > /dev/null
+HOME=`pwd`
+popd > /dev/null
+
+gn gen out/$1 --args="symbol_level=1 is_chrome_branded=false target_os=\"android\" android_keystore_path=\"$HOME/chromium/chromoting.keystore\" $2"

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gn gen out/GNDebug --args="is_debug=true is_component_build=true symbol_level=1 is_chrome_branded=true target_os=\"android\""
+$(dirname "$(realpath "$0")")/gn-android GNDebug "is_debug=true is_component_build=true"
