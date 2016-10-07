@@ -40,7 +40,7 @@
 # shopt -s nocaseglob
 #
 # Make bash append rather than overwrite the history on disk
-# shopt -s histappend
+shopt -s histappend
 #
 # When changing directory small typos can be ignored by bash
 # for example, cd /vr/lgo/apaache would find /var/log/apache
@@ -204,3 +204,6 @@ if [ -d "/cygdrive/d/src/zijiehe/chromium/depot_tools" ]
 then
   alias cmd-chromium='cmd /k "PATH=d:\src\zijiehe\chromium\depot_tools;%PATH%&d:&cd src\zijiehe\chromium"'
 fi
+
+export HISTSIZE=99999999
+export HISTFILESIZE=99999999

@@ -39,6 +39,7 @@ endfunction
 :set number
 :set smc=200
 :set colorcolumn=80
+:set fileformat=unix
 
 map <C-Tab> :tabnext<CR>
 imap <C-Tab> <ESC>:tabnext<CR>i

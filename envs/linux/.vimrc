@@ -38,6 +38,7 @@ endfunction
 :set nowrap
 :set number
 :set colorcolumn=80
+:set fileformat=unix
 
 map <C-Tab> :tabnext<CR>
 imap <C-Tab> <ESC>:tabnext<CR>i
