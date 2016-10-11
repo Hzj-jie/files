@@ -1,0 +1,3 @@
+#!/bin/sh
+
+$(dirname "$(realpath "$0")")/gn-release-x64.cmd
