@@ -1,0 +1,5 @@
+This application requires READ_PHONE_STATE and WRITE_SECURE_SETTING or other
+necessary permissions to execute its designed functionality, e.g. set the
+configurations which usually can only be set by "Settings" application of the
+system. The system states won't be used for any reason other than this. This
+application does not collect or send any user information for any purpose.
