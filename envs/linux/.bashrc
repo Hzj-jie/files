@@ -141,3 +141,9 @@ fi
 
 export PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools/:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/:
 export PATH=$PATH:~/git/files/bash/:
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/google/home/zijiehe/google-cloud-sdk/path.bash.inc' ]; then source '/usr/local/google/home/zijiehe/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/google/home/zijiehe/google-cloud-sdk/completion.bash.inc' ]; then source '/usr/local/google/home/zijiehe/google-cloud-sdk/completion.bash.inc'; fi
