@@ -200,10 +200,9 @@ shopt -s histappend
 alias ll='ls -alF'
 alias vi='vim'
 
-if [ -d "/cygdrive/d/src/zijiehe/chromium/depot_tools" ]
-then
-  alias cmd-chromium='cmd /k "PATH=d:\src\zijiehe\chromium\depot_tools;%PATH%&d:&cd src\zijiehe\chromium"'
-fi
-
 export HISTSIZE=99999999
 export HISTFILESIZE=99999999
+
+export LANG=en_US.UTF-8
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/lib
+export LC_CTYPE=zh_CN
