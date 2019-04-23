@@ -1,0 +1,58 @@
+-- we can read Lua syntax here!
+return {
+	["font_embolden"] = 0,
+	["copt_line_spacing"] = 100,
+	["copt_page_margins"] = {
+		[1] = 10,
+		[2] = 15,
+		[3] = 10,
+		[4] = 15
+	},
+	["render_mode"] = 0,
+	["highlight_drawer"] = "lighten",
+	["bookmarks"] = {},
+	["gamma"] = 1,
+	["font_size"] = 22,
+	["screen_mode"] = "portrait",
+	["show_overlap_enable"] = false,
+	["last_xpointer"] = "/FictionBook/body/section[2]/p[37]/text().25",
+	["stats"] = {
+		["performance_in_pages"] = {},
+		["authors"] = "",
+		["notes"] = 0,
+		["total_time_in_sec"] = 0,
+		["title"] = "bad.utf8",
+		["highlights"] = 0,
+		["pages"] = 1,
+		["series"] = "",
+		["language"] = ""
+	},
+	["gamma_index"] = 15,
+	["config_panel_index"] = 1,
+	["highlights_imported"] = true,
+	["line_space_percent"] = 100,
+	["header_font_face"] = "Noto Sans",
+	["floating_punctuation"] = 1,
+	["copt_screen_mode"] = "portrait",
+	["hyph_alg"] = "English_US_hyphen_(Alan).pdb",
+	["copt_font_weight"] = 0,
+	["copt_status_line"] = 1,
+	["font_face"] = "Noto Serif",
+	["readermenu_tab_index"] = 1,
+	["percent_finished"] = 1,
+	["highlight"] = {},
+	["embedded_css"] = true,
+	["copt_font_size"] = 22,
+	["highlight_disabled"] = false,
+	["page_overlap_style"] = "dim",
+	["copt_view_mode"] = 0,
+	["css"] = "./data/txt.css",
+	["summary"] = {
+		["status"] = "",
+		["modified"] = ""
+	},
+	["copt_font_gamma"] = 15,
+	["rotation_mode"] = 0,
+	["copt_embedded_css"] = 1,
+	["bookmarks_sorted"] = true
+}
