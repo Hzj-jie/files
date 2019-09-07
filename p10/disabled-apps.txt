@@ -24,3 +24,4 @@ com.huawei.vassistant
 com.huawei.videoeditor
 com.realvnc.android.remote
 com.android.mms
+com.huawei.systemmanager
