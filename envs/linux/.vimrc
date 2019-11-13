@@ -39,6 +39,7 @@ endfunction
 :set number
 :set colorcolumn=80
 :set fileformat=unix
+:set clipboard+=unnamedplus
 
 map <C-Tab> :tabnext<CR>
 imap <C-Tab> <ESC>:tabnext<CR>i
@@ -50,4 +51,3 @@ map <F8> :set wrap<CR>
 imap <F8> :set wrap<CR>
 
 :hi Comment ctermfg=LightBlue
-
