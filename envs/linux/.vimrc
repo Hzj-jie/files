@@ -39,7 +39,7 @@ endfunction
 :set number
 :set colorcolumn=80
 :set fileformat=unix
-:set clipboard+=unnamedplus
+:set clipboard=unnamedplus
 
 map <C-Tab> :tabnext<CR>
 imap <C-Tab> <ESC>:tabnext<CR>i
