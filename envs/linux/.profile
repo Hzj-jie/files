@@ -23,6 +23,6 @@ fi
 
 AUTORUN="$HOME/autorun"
 
-for i in $(ls -1 "$AUTORUN/*.sh"); do
-  sh "$AUTORUN/$i"
+for i in $(ls -1 $AUTORUN/*.sh); do
+  sh "$i"
 done

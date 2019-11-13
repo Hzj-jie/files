@@ -24,3 +24,7 @@ com.huawei.vassistant
 com.huawei.videoeditor
 com.realvnc.android.remote
 com.android.mms
+com.huawei.scanner
+com.huawei.hicard
+com.huawei.hiview
+com.huawei.hiviewtunnel
