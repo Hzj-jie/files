@@ -28,3 +28,10 @@ com.huawei.scanner
 com.huawei.hicard
 com.huawei.hiview
 com.huawei.hiviewtunnel
+
+# 2019.12.30
+com.huawei.rcsserviceapplication
+com.huawei.nearby
+com.huawei.synergy
+com.huawei.android.pushagent
+com.huawei.android.hsf
