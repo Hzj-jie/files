@@ -35,3 +35,6 @@ com.huawei.nearby
 com.huawei.synergy
 com.huawei.android.pushagent
 com.huawei.android.hsf
+
+# 2020.01.22
+com.tmri.app.main
