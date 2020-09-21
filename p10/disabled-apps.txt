@@ -38,3 +38,6 @@ com.huawei.android.hsf
 
 # 2020.01.22
 com.tmri.app.main
+
+# 2020.02.04
+com.huawei.hwid
