@@ -150,3 +150,7 @@ if [ -f '/usr/local/google/home/zijiehe/google-cloud-sdk/completion.bash.inc' ];
 
 export PATH=$PATH:~/fuchsia/.jiri_root/bin:
 if [ -f ~/fuchsia/scripts/fx-env.sh ]; then source ~/fuchsia/scripts/fx-env.sh; fi
+
+# Remove empty path, e.g. "::"
+export PATH=$(echo $PATH | sed 's/::/:/g')
+export PATH=$(echo $PATH | sed 's/:$//g')
