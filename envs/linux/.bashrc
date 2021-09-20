@@ -147,3 +147,6 @@ if [ -f '/usr/local/google/home/zijiehe/google-cloud-sdk/path.bash.inc' ]; then 
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/usr/local/google/home/zijiehe/google-cloud-sdk/completion.bash.inc' ]; then source '/usr/local/google/home/zijiehe/google-cloud-sdk/completion.bash.inc'; fi
+
+export PATH=$PATH:~/fuchsia/.jiri_root/bin:
+if [ -f ~/fuchsia/scripts/fx-env.sh ]; then source ~/fuchsia/scripts/fx-env.sh; fi
