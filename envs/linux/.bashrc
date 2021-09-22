@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] - \d-\t:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] - \d-\t:\[\033[01;35m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h - \d-\t:\w\$ '
 fi
@@ -122,20 +122,6 @@ shopt -s histappend
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 alias ssh-password='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
-
-git5 --help > /dev/null 2>&1
-if [ $? -ne 127 ]
-then
-  git() {
-      if [[ $1 == 'merge' ]]
-          then
-              echo 'Use git5 merge, not git merge. git merge does not understand how to merge the READONLY link and it can corrupt your branch, so stay away from it.  type "unset -f git" to remove this warning';
-          else
-              command git "$@"
-          fi
-      }
-
-fi
 
 export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
 export PATH=$PATH:~/git5/experimental/google3/experimental/users/zijiehe/bash/:
