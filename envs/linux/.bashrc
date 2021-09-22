@@ -135,10 +135,10 @@ then
           fi
       }
 
-  export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
-  export PATH=$PATH:~/git5/experimental/google3/experimental/users/zijiehe/bash/:
 fi
 
+export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
+export PATH=$PATH:~/git5/experimental/google3/experimental/users/zijiehe/bash/:
 export PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools/:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/:
 export PATH=$PATH:~/git/files/bash/:
 
