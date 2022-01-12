@@ -143,3 +143,5 @@ export PATH=$(echo $PATH | sed 's/:$//g')
 
 alias fvdl=/google/src/head/depot/google3/third_party/unsupported_toolchains/fuchsia/sdk/tools/x64/fvdl
 alias playground_launcher_fuchsia=/google/bin/releases/turquoise-infra-testing/femu/playground_launcher_fuchsia.par
+
+export SKIP_GCE_AUTH_FOR_GIT=1
