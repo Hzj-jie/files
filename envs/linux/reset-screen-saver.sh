@@ -3,5 +3,5 @@
 for ((;;))
 do
   xdg-screensaver reset
-  sleep 1m
+  sleep 5s
 done

@@ -128,13 +128,7 @@ export PATH=$PATH:~/git5/experimental/google3/experimental/users/zijiehe/bash/:
 export PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools/:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/:
 export PATH=$PATH:~/git/files/bash/:
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/usr/local/google/home/zijiehe/google-cloud-sdk/path.bash.inc' ]; then source '/usr/local/google/home/zijiehe/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/usr/local/google/home/zijiehe/google-cloud-sdk/completion.bash.inc' ]; then source '/usr/local/google/home/zijiehe/google-cloud-sdk/completion.bash.inc'; fi
-
-export PATH=$PATH:~/fuchsia/.jiri_root/bin:
+export PATH=$PATH:.jiri_root/bin/:third_party/fuchsia-sdk/sdk/tools/x64/
 if [ -f ~/fuchsia/scripts/fx-env.sh ]; then source ~/fuchsia/scripts/fx-env.sh; fi
 
 # Remove empty path, e.g. "::"
@@ -143,3 +137,9 @@ export PATH=$(echo $PATH | sed 's/:$//g')
 
 alias fvdl=/google/src/head/depot/google3/third_party/unsupported_toolchains/fuchsia/sdk/tools/x64/fvdl
 alias playground_launcher_fuchsia=/google/bin/releases/turquoise-infra-testing/femu/playground_launcher_fuchsia.par
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.bash.inc'; fi
