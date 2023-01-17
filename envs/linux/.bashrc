@@ -143,3 +143,5 @@ if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/path.bash.inc
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+
+export SKIP_GCE_AUTH_FOR_GIT=1
