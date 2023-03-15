@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<EvoScanDataLogger>
+  <vehicle name="Mitsubishi MUTII MMC 1G DSM OBDI - ABS" LastUpdated="5th December 2011" LastAuthor="Hamish Ahern" LastAuthorContact="http://www.evoscan.com/help-and-support">
+    <ecu name="ABS">
+      <Mode2 name="Mode2" type="Data List Items">
+        <DataListItem DataLog="Y" Color="" Display="G Force Sensor" LogReference="ABS_GForce" RequestID="00" Eval="2.5*x/128" Unit="V" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Battery Level" LogReference="ABS_Battery" RequestID="01" Eval="x/10" Unit="V" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="0.084*x+0.8" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Front Right Wheel Speed" LogReference="ABS_FR" RequestID="02" Eval="0.57*x" Unit="km/h" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Front Left Wheel Speed" LogReference="ABS_FL" RequestID="03" Eval="0.57*x" Unit="km/h" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Rear Right Wheel Speed" LogReference="ABS_RR" RequestID="04" Eval="1.088*x" Unit="km/h" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Rear Left Wheel Speed" LogReference="ABS_RL" RequestID="05" Eval="0.57*x" Unit="km/h" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="AYC Signal" LogReference="AYCSignal" RequestID="06" Eval="x bit 16" Unit="On/Off" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Brake Light" LogReference="BrakeLightSw" RequestID="07" Eval="x bit 2" Unit="On/Off" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="1 = No Brake&#xD;&#xA;0 = Braking" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Clear ABS Diagnostic Codes" LogReference="ABS_ClearDTC" RequestID="FC" Eval="x" Unit="command" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+      </Mode2>
+    </ecu>
+  </vehicle>
+</EvoScanDataLogger>

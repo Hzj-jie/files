@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<EvoScanDataLogger>
+  <vehicle name="Mitsubishi EvoX SST Transmission" LastUpdated="16th January 2012" LastAuthor="Hamish Ahern" LastAuthorContact="http://www.evoscan.com/help-and-support">
+    <ecu name="SST Transmission EVOX">
+      <Mode2 name="Mode2" type="Data List Items">
+        <DataListItem DataLog="N" Color="" Display="SST Transmission Temp" LogReference="SST_TM_Temp" RequestID="CAN28-0" Eval="x-50" Unit="Deg F" MetricEval="x-50" MetricUnit="Deg C" ResponseBytes="1" GaugeMin="0" GaugeMax="1000" ChartMin="0" ChartMax="1000" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Clutch Pressure (Odd number gears)" LogReference="ClutchPressureOdd" RequestID="CAN35-0" Eval="x*2" Signed="true" Unit="mbar" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Clutch Temp (Odd number gears)" LogReference="ClutchTempOdd" RequestID="CAN33-0" Eval="x/4" Unit="C" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Clutch Temp (Even number gears)" LogReference="ClutchTempEven" RequestID="CAN33-2" Eval="x/4" Unit="C" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Clutch Pressure (Even number gears)" LogReference="ClutchPressureEven" RequestID="CAN35-2" Eval="x*2" Signed="true" Unit="mbar" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Clutch SlipSpeed (Odd number gears)" LogReference="ClutchSlipSpeedOdd" RequestID="CAN34-0" Eval="x/2" Signed="true" Unit="rpm" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Clutch SlipSpeed (Even number gears)" LogReference="ClutchSlipSpeedEven" RequestID="CAN34-2" Eval="x/2" Signed="true" Unit="rpm" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Input Shaft Speed (Odd number gears)" LogReference="InputShaftSpeedOdd" RequestID="CAN36-0" Eval="x" Unit="rpm" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="N" Color="" Display="Input Shaft Speed (Even number gears)" LogReference="InputShaftSpeedEven" RequestID="CAN36-2" Eval="x" Unit="rpm" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+      </Mode2>
+    </ecu>
+  </vehicle>
+</EvoScanDataLogger>
