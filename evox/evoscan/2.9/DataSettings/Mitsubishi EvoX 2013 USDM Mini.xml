@@ -15,6 +15,8 @@
         <DataListItem DataLog="Y" Color="" Display="Injector Duty Cycle (IDC)" LogReference="IDC" RequestID="23808746" Eval="[IPW]*3.90625*x/1200" Unit="%" MetricEval="" MetricUnit="" ResponseBytes="2" GaugeMin="0" GaugeMax="100" ChartMin="0" ChartMax="100" ScalingFactor="1" Notes="Injector Duty Cycle. A percentage of injector utilisation." Priority="1" Visible="False" />
         <DataListItem DataLog="Y" Color="" Display="Air/Fuel Ratio (Map)" LogReference="AFRMAP" RequestID="23808949" Eval="(14.7*128)/x" Unit="AFR" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
         <DataListItem DataLog="Y" Color="" Display="Battery Level" LogReference="Battery" RequestID="2380873F" Eval="0.07333*x" Unit="V" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="3" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Accel Pedal Position" LogReference="APP" RequestID="23809645" Eval="(x-32)*129/255" Unit="%" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="Throttle Position (TPS)" LogReference="TPS" RequestID="23808749" Eval="x*100/255" Unit="%" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="100" ChartMin="0" ChartMax="100" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
       </Mode2>
     </ecu>
   </vehicle>
