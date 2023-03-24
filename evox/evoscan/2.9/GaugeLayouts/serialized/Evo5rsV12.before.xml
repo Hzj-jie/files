@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <Top>64</Top>
+    <Left>0</Left>
+    <Width>1003</Width>
+    <Height>601</Height>
+    <GaugeTemplateFileName>Evo5rsV12</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>

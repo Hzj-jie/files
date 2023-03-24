@@ -1,0 +1,272 @@
+<GaugeCore AutoLayout="False" BuildNumber="2.0.2.200" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Value="0" Name="Default" ValueLimit="21">
+      <History>
+        <HistoryEntry TimeStamp="2008-03-30T19:02:07.2422480+01:00" Value="0" />
+      </History>
+    </InputValue>
+  </Values>
+  <CircularGauges>
+    <CircularGauge Name="coolant">
+      <Scales>
+        <CircularScale Radius="47" StartAngle="90" SweepAngle="230" Name="Default" Maximum="120" Width="0" BorderColor="Gold" FillColor="Gold" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" TextColor="Gold" />
+          <MajorTickMark Shape="Rectangle" Length="13" Width="4" BorderColor="Gold" BorderWidth="0" FillColor="Gold" />
+          <MinorTickMark Length="12" Width="4" BorderColor="Gold" BorderWidth="0" FillColor="Gold" />
+        </CircularScale>
+      </Scales>
+      <Pointers>
+        <CircularPointer CapVisible="False" CapWidth="0" Name="Default" ShadowOffset="0" BorderWidth="0" FillColor="Gold" FillGradientEndColor="Gold" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="-10.9804058" Y="2.51612115" />
+      <Size Width="45" Height="30" />
+      <BackFrame FrameStyle="Edged" FrameShape="Circular" FrameWidth="0" FrameColor="" FrameGradientEndColor="" BackColor="" BackGradientEndColor="" />
+    </CircularGauge>
+    <CircularGauge Name="Battery">
+      <Scales>
+        <CircularScale Radius="47" StartAngle="90" SweepAngle="230" Name="Default" Maximum="18" Width="0" BorderColor="LawnGreen" FillColor="LawnGreen" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" TextColor="LawnGreen" />
+          <MajorTickMark Shape="Rectangle" Length="12" Width="4" BorderColor="LawnGreen" BorderWidth="0" FillColor="LawnGreen" />
+          <MinorTickMark Length="12" Width="4" BorderColor="LawnGreen" BorderWidth="0" FillColor="LawnGreen" />
+        </CircularScale>
+      </Scales>
+      <Pointers>
+        <CircularPointer CapVisible="False" Name="Default" ShadowOffset="0" BorderWidth="0" FillColor="LawnGreen" FillGradientEndColor="LawnGreen" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="-10.9804058" Y="29.6128883" />
+      <Size Width="45" Height="30" />
+      <BackFrame FrameStyle="Edged" FrameShape="Circular" FrameWidth="0" FrameColor="" FrameGradientEndColor="" BackColor="" BackGradientEndColor="" />
+    </CircularGauge>
+    <CircularGauge Name="Air temp">
+      <Scales>
+        <CircularScale Radius="47" StartAngle="90" SweepAngle="230" Name="Default" Maximum="60" Width="0" BorderColor="Aquamarine" FillColor="Aquamarine" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" TextColor="Aquamarine" />
+          <MajorTickMark Shape="Rectangle" Length="12" Width="4" BorderWidth="0" FillColor="Aquamarine" />
+          <MinorTickMark Length="12" BorderColor="Aquamarine" BorderWidth="0" FillColor="Aquamarine" />
+        </CircularScale>
+      </Scales>
+      <Pointers>
+        <CircularPointer CapVisible="False" Name="Default" ShadowOffset="0" FillColor="Aquamarine" FillGradientEndColor="Aquamarine" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="-10.9804058" Y="56.774086" />
+      <Size Width="45" Height="30" />
+      <BackFrame FrameStyle="Edged" FrameShape="Circular" FrameWidth="0" FrameColor="" FrameGradientEndColor="" BackColor="" BackGradientEndColor="" />
+    </CircularGauge>
+    <CircularGauge Name="AFR">
+      <Scales>
+        <CircularScale Radius="45" StartAngle="70" SweepAngle="220" Name="Default" Minimum="7" Maximum="21" Width="0" FillColor="OrangeRed" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" TextColor="White" />
+          <MajorTickMark Shape="Rectangle" Length="12" Width="2" BorderWidth="0" FillColor="White" />
+          <MinorTickMark Length="12" Width="2" BorderWidth="0" />
+        </CircularScale>
+      </Scales>
+      <Pointers>
+        <CircularPointer CapVisible="False" Name="Default" BorderWidth="0" FillColor="Red" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="35.68627" Y="5.16128969" />
+      <Size Width="50" Height="50" />
+      <BackFrame FrameStyle="Edged" FrameShape="Circular" FrameWidth="0" FrameColor="" FrameGradientEndColor="" BackColor="" BackGradientEndColor="" />
+    </CircularGauge>
+  </CircularGauges>
+  <LinearGauges>
+    <LinearGauge Name="divider1">
+      <Scales>
+        <LinearScale Width="0" Name="Default" BorderColor="" FillColor="" ShadowOffset="0">
+          <LabelStyle TextColor="" />
+          <MajorTickMark Length="0" Width="0" BorderColor="" FillColor="" />
+          <MinorTickMark Length="0" Width="0" BorderColor="" FillColor="" />
+        </LinearScale>
+      </Scales>
+      <Pointers>
+        <LinearPointer Width="0" MarkerLength="0" ThermometerBackColor="" ThermometerBackGradientEndColor="" Name="Default" />
+      </Pointers>
+      <Location X="0" Y="84.9999847" />
+      <Size Width="100" Height="1.5" />
+      <BackFrame FrameStyle="Edged" FrameShape="Rectangular" FrameWidth="0" FrameColor="DimGray" FrameGradientEndColor="DimGray" BackColor="DimGray" BackGradientEndColor="DimGray" />
+    </LinearGauge>
+    <LinearGauge Name="Fuel Trims">
+      <Scales>
+        <LinearScale Width="0" Position="30" StartMargin="13" EndMargin="20" Name="Default" Minimum="-10" Maximum="10" ShadowOffset="0">
+          <LabelStyle TextColor="DarkOrange" />
+          <MajorTickMark Length="10" BorderWidth="0" FillColor="DarkOrange" />
+          <MinorTickMark Length="10" Width="2" BorderWidth="0" FillColor="DeepSkyBlue" />
+        </LinearScale>
+      </Scales>
+      <Pointers>
+        <LinearPointer Width="10" MarkerLength="15" ThermometerBackColor="" ThermometerBackGradientEndColor="" Name="Low" DistanceFromScale="5" BorderWidth="0" FillColor="Red" />
+        <LinearPointer Width="10" MarkerLength="15" ThermometerBackColor="" ThermometerBackGradientEndColor="" Name="Mid" DistanceFromScale="25" BorderWidth="0" FillColor="Yellow" FillGradientEndColor="Yellow" />
+        <LinearPointer Width="10" MarkerLength="15" ThermometerBackColor="" ThermometerBackGradientEndColor="" Name="Hi" DistanceFromScale="45" BorderWidth="0" FillColor="LawnGreen" FillGradientEndColor="LawnGreen" />
+      </Pointers>
+      <Location X="24.9999962" Y="63.3547935" />
+      <Size Width="70.5" Height="20" />
+      <BackFrame FrameStyle="Edged" FrameShape="Rectangular" FrameWidth="0" FrameColor="" FrameGradientEndColor="" BorderColor="White" BackColor="" BackGradientEndColor="" />
+    </LinearGauge>
+  </LinearGauges>
+  <NumericIndicators>
+    <NumericIndicator Parent="CircularGauges.coolant" Name="Coolant " IndicatorStyle="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Gold" DecimalColor="Gold" LedDimColor="20, 0, 0, 0">
+      <Location X="1.043475" Y="55.08692" />
+      <Size Width="50" Height="20" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Battery" Name="Battery" IndicatorStyle="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="LawnGreen" DecimalColor="LawnGreen" LedDimColor="20, 0, 0, 0">
+      <Location X="1.043475" Y="56.3912735" />
+      <Size Width="50" Height="20" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Air temp" Name="Air Temp" IndicatorStyle="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Aquamarine" DecimalColor="Aquamarine" LedDimColor="20, 0, 0, 0">
+      <Location X="1.04347515" Y="56.3912773" />
+      <Size Width="50" Height="20" />
+    </NumericIndicator>
+    <NumericIndicator Parent="LinearGauges.Fuel Trims" Name="LTFT Idle" IndicatorStyle="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="Both" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Red" DecimalColor="Red" LedDimColor="">
+      <Location X="81.04341" Y="37.3910561" />
+      <Size Width="19" Height="17" />
+    </NumericIndicator>
+    <NumericIndicator Parent="LinearGauges.Fuel Trims" Name="LTFT Cruise" IndicatorStyle="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="Both" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Yellow" DecimalColor="Yellow" LedDimColor="">
+      <Location X="81.04341" Y="55.3910332" />
+      <Size Width="19" Height="17" />
+    </NumericIndicator>
+    <NumericIndicator Parent="LinearGauges.Fuel Trims" Name="LTFT WOT" IndicatorStyle="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="Both" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="LawnGreen" DecimalColor="LawnGreen" LedDimColor="20, 0, 0, 0">
+      <Location X="81.04344" Y="73.39117" />
+      <Size Width="19" Height="17" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.AFR" Name="AFR" IndicatorStyle="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="None" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="White" DecimalColor="White" LedDimColor="20, 0, 0, 0">
+      <Location X="23.1992683" Y="67.30024" />
+      <Size Width="50" Height="20" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.coolant" Name="Timing" IndicatorStyle="Digital7Segment" Digits="2" Decimals="0" ShowSign="Both" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="DeepSkyBlue" DecimalColor="DeepSkyBlue" LedDimColor="20, 0, 0, 0">
+      <Location X="124.894684" Y="12.7784576" />
+      <Size Width="95" Height="50" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.coolant" Name="Knock Sum" IndicatorStyle="Digital7Segment" Digits="2" Decimals="0" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Red" DecimalColor="Red" LedDimColor="20, 0, 0, 0">
+      <Location X="124.894775" Y="142.734833" />
+      <Size Width="94" Height="50" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.coolant" Name="Load" IndicatorStyle="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Yellow" DecimalColor="Yellow" LedDimColor="20, 0, 0, 0">
+      <Location X="124.894768" Y="78.51748" />
+      <Size Width="95" Height="50" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.coolant" Name="IDC" IndicatorStyle="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="LawnGreen" DecimalColor="LawnGreen" LedDimColor="20, 0, 0, 0">
+      <Location X="421.3728" Y="142.734818" />
+      <Size Width="95" Height="50" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.coolant" Name="Power" IndicatorStyle="Digital7Segment" Digits="5" Decimals="2" ShowDecimalPoint="True" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Orange" DecimalColor="Orange" LedDimColor="20, 0, 0, 0">
+      <Location X="420.0249" Y="12.7784643" />
+      <Size Width="95" Height="50" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.coolant" Name="Torque" IndicatorStyle="Digital7Segment" Digits="5" Decimals="2" ShowDecimalPoint="True" ShowSign="None" BorderColor="White" BorderWidth="0" BackColor="" BackGradientEndColor="" DigitColor="Firebrick" LedDimColor="">
+      <Location X="420.851074" Y="78.51747" />
+      <Size Width="95" Height="50" />
+    </NumericIndicator>
+  </NumericIndicators>
+  <StateIndicators>
+    <StateIndicator Parent="CircularGauges.coolant" Name="Coolant high" IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Coolant Temp High" ResizeMode="None">
+      <States>
+        <State Name="High" StartValue="95" EndValue="150" Font="Microsoft Sans Serif, 15.75pt" Text="Coolant Temp High" />
+        <State Name="Low" StartValue="0" EndValue="70" Font="Microsoft Sans Serif, 15.75pt" FillColor="Cyan" Text="Coolant Temp Low" />
+      </States>
+      <Location X="-4.52174425" Y="264.391235" />
+      <Size Width="80" Height="70" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.coolant" Name="Battery " IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Battery Voltage Low" ResizeMode="None">
+      <States>
+        <State Name="Low" StartValue="0" EndValue="10" Font="Microsoft Sans Serif, 15.75pt" Text="Battery Voltage Low" />
+        <State Name="High" StartValue="16" EndValue="20" Font="Microsoft Sans Serif, 15.75pt" FillColor="Yellow" Text="Battery Voltage High" />
+      </States>
+      <Location X="84.65214" Y="262.5651" />
+      <Size Width="80" Height="70" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.coolant" Name="Knock" IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Warning Enging Knock &gt;4" ResizeMode="None">
+      <States>
+        <State Name="Knock&gt;4" StartValue="4" EndValue="6" Font="Microsoft Sans Serif, 15.75pt" FillColor="Yellow" Text="Warning Engine Knock &gt;4" />
+        <State Name="Knock&gt;6" StartValue="6" Font="Microsoft Sans Serif, 15.75pt" Text="Warning Engine Knock &gt;6" />
+      </States>
+      <Location X="175.8695" Y="265.3912" />
+      <Size Width="80" Height="70" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.coolant" Name="Maps" IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Map Selected Normal" ResizeMode="None">
+      <States>
+        <State Name="N Map" StartValue="0" EndValue="1" Font="Microsoft Sans Serif, 15.75pt" FillColor="LawnGreen" Text="Map Selected Normal" />
+        <State Name="Alt Map" StartValue="3" EndValue="4" Font="Microsoft Sans Serif, 15.75pt" Text="Map Selected ALT" />
+      </States>
+      <Location X="265.739" Y="264.347717" />
+      <Size Width="80" Height="70" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.coolant" Name="WOT" IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Wide Open Throttle" ResizeMode="None">
+      <States>
+        <State Name="WOT" StartValue="90" Font="Microsoft Sans Serif, 15.75pt" Text="Wide Open Throttle" />
+      </States>
+      <Location X="354.347656" Y="264.391083" />
+      <Size Width="80" Height="70" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.coolant" Name="AFR" IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="AFR Rich" ResizeMode="None">
+      <States>
+        <State Name="Rich" StartValue="7" EndValue="11" Font="Microsoft Sans Serif, 15.75pt" FillColor="Yellow" Text="AFR Rich" />
+        <State Name="MBT" StartValue="11" EndValue="12" Font="Microsoft Sans Serif, 15.75pt" FillColor="LawnGreen" Text="AFR MBT" />
+        <State Name="Lean" StartValue="12" EndValue="21" Font="Microsoft Sans Serif, 15.75pt" Text="AFR Lean" />
+      </States>
+      <Location X="437.7825" Y="264.0433" />
+      <Size Width="80" Height="70" />
+    </StateIndicator>
+  </StateIndicators>
+  <Labels>
+    <GaugeLabel Parent="CircularGauges.coolant" Name="Coolant" BackColor="" TextColor="Gold" BackGradientEndColor="" Text="Coolant">
+      <Location X="7.99999571" Y="76.9999847" />
+      <Size Width="40" Height="12" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Battery" Name="battery" BackColor="" TextColor="LawnGreen" BackGradientEndColor="" Text="Battery">
+      <Location X="7.99999571" Y="76.99998" />
+      <Size Width="40" Height="12" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Air temp" Name="Air Temp" BackColor="" TextColor="Aquamarine" BackGradientEndColor="" Text="Air Temp">
+      <Location X="5.999996" Y="79.9999847" />
+      <Size Width="40" Height="15" />
+    </GaugeLabel>
+    <GaugeLabel Parent="LinearGauges.Fuel Trims" Name="LTFT LOW" BackColor="" TextColor="Red" BackGradientEndColor="" Text="LTFT Idle">
+      <Location X="0.246056825" Y="36.9999466" />
+      <Size Width="27" Height="17" />
+    </GaugeLabel>
+    <GaugeLabel Parent="LinearGauges.Fuel Trims" Name="LTFT MID" BackColor="" TextColor="Yellow" BackGradientEndColor="" Text="LTFT Cruise">
+      <Location X="0.246054828" Y="56.9999046" />
+      <Size Width="25" Height="15" />
+    </GaugeLabel>
+    <GaugeLabel Parent="LinearGauges.Fuel Trims" Name="LTFT HI" BackColor="" TextColor="LawnGreen" BackGradientEndColor="" Text="LTFT WOT">
+      <Location X="0.246056825" Y="76.61274" />
+      <Size Width="25" Height="15" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.AFR" Name="AFR" BackColor="" TextColor="White" BackGradientEndColor="" Text="Air Fuel Ratio">
+      <Location X="23.6226578" Y="91.30104" />
+      <Size Width="50" Height="15" />
+    </GaugeLabel>
+    <GaugeLabel Parent="LinearGauges.Fuel Trims" Name="LTFT" BackColor="" TextColor="DarkOrange" BackGradientEndColor="" Text="Long Term Fuel Trims">
+      <Location X="30.6226578" Y="-26.69896" />
+      <Size Width="40" Height="25" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Load" Name="Load" BackColor="" TextColor="Yellow" BackGradientEndColor="" Text="Engine Load">
+      <Location X="26.6226578" Y="-23.69896" />
+      <Size Width="50" Height="40" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Timing" Name="Timing" BackColor="" TextColor="DeepSkyBlue" BackGradientEndColor="" Text="Timing Adv">
+      <Location X="26.6226082" Y="-23.69897" />
+      <Size Width="50" Height="40" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Knock Sum" Name="Knock" BackColor="" TextColor="Red" BackGradientEndColor="" Text="Knock Sum">
+      <Location X="28.6226578" Y="-22.69896" />
+      <Size Width="50" Height="40" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Power" Name="Power" BackColor="" TextColor="Orange" BackGradientEndColor="" Text="Power Estimated">
+      <Location X="14.6226578" Y="-24.69896" />
+      <Size Width="75" Height="65" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Torque" Name="Torque" BackColor="" TextColor="Firebrick" BackGradientEndColor="" Text="Torque Estimated">
+      <Location X="12.6226578" Y="-25.69896" />
+      <Size Width="80" Height="65" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.IDC" Name="IDC" BackColor="" TextColor="LawnGreen" BackGradientEndColor="" Text="IDC %">
+      <Location X="32.6226578" Y="-26.69896" />
+      <Size Width="40" Height="40" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame FrameStyle="Simple" FrameShape="Rectangular" FrameWidth="2" FrameColor="DimGray" FrameGradientType="None" FrameGradientEndColor="DimGray" BackColor="Black" BackGradientType="HorizontalCenter" BackGradientEndColor="Black" />
+</GaugeCore>
