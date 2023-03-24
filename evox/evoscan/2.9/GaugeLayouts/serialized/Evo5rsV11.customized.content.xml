@@ -89,7 +89,7 @@
       <item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
         <GaugeType>StateIndicator</GaugeType>
         <TemplateName xsi:null="1"/>
-        <GaugeName id="ref-31">Battery </GaugeName>
+        <GaugeName id="ref-31">Battery</GaugeName>
         <GaugePointerName href="#ref-31"/>
         <DataItem href="#ref-20"/>
         <DataKey href="#ref-21"/>
@@ -139,7 +139,7 @@
       <item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
         <GaugeType>NumericIndicator</GaugeType>
         <TemplateName xsi:null="1"/>
-        <GaugeName id="ref-42">Coolant </GaugeName>
+        <GaugeName id="ref-42">Coolant</GaugeName>
         <GaugePointerName href="#ref-42"/>
         <DataItem href="#ref-16"/>
         <DataKey href="#ref-17"/>
