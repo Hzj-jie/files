@@ -1,0 +1,271 @@
+    <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>26</_size>
+<_version>166</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[32]">
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>LinearGauge</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-4">Fuel Trims</GaugeName>
+<GaugePointerName id="ref-5">Low</GaugePointerName>
+<DataItem id="ref-6">Fuel Trim Low (LTFT)</DataItem>
+<DataKey id="ref-7">FuelTrim_High</DataKey>
+<Min>-15</Min>
+<Max>15</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>LinearGauge</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName href="#ref-4"/>
+<GaugePointerName id="ref-8">Mid</GaugePointerName>
+<DataItem id="ref-9">Fuel Trim Mid (LTFT)</DataItem>
+<DataKey id="ref-10">FuelTrim_Mid</DataKey>
+<Min>-15</Min>
+<Max>15</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>LinearGauge</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName href="#ref-4"/>
+<GaugePointerName id="ref-11">Hi</GaugePointerName>
+<DataItem id="ref-12">Fuel Trim High (LTFT)</DataItem>
+<DataKey id="ref-13">FuelTrim_Low</DataKey>
+<Min>-15</Min>
+<Max>15</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>CircularGauge</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-14">coolant</GaugeName>
+<GaugePointerName id="ref-15">Default</GaugePointerName>
+<DataItem id="ref-16">Coolant Temp</DataItem>
+<DataKey id="ref-17">CoolantTemp</DataKey>
+<Min>0</Min>
+<Max>120</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>CircularGauge</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-18">Battery</GaugeName>
+<GaugePointerName id="ref-19">Default</GaugePointerName>
+<DataItem id="ref-20">Battery Level</DataItem>
+<DataKey id="ref-21">Battery</DataKey>
+<Min>0</Min>
+<Max>16</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>CircularGauge</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-22">Air temp</GaugeName>
+<GaugePointerName id="ref-23">Default</GaugePointerName>
+<DataItem id="ref-24">Air Temperature</DataItem>
+<DataKey id="ref-25">AirTemp</DataKey>
+<Min>0</Min>
+<Max>60</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>CircularGauge</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-26">AFR</GaugeName>
+<GaugePointerName id="ref-27">Default</GaugePointerName>
+<DataItem id="ref-28">External Wideband A/F Ratio</DataItem>
+<DataKey id="ref-29">WideBandAF</DataKey>
+<Min>7</Min>
+<Max>21</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>StateIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-30">Coolant high</GaugeName>
+<GaugePointerName href="#ref-30"/>
+<DataItem href="#ref-16"/>
+<DataKey href="#ref-17"/>
+<Min>0</Min>
+<Max>120</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>StateIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-31">Battery </GaugeName>
+<GaugePointerName href="#ref-31"/>
+<DataItem href="#ref-20"/>
+<DataKey href="#ref-21"/>
+<Min>0</Min>
+<Max>16</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>StateIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-32">Knock</GaugeName>
+<GaugePointerName href="#ref-32"/>
+<DataItem id="ref-33">Knock Sum</DataItem>
+<DataKey id="ref-34">KnockSum</DataKey>
+<Min>0</Min>
+<Max>50</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>StateIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-35">Maps</GaugeName>
+<GaugePointerName href="#ref-35"/>
+<DataItem id="ref-36">Alt Maps</DataItem>
+<DataKey id="ref-37">Alt_Maps</DataKey>
+<Min>0</Min>
+<Max>255</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>StateIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-38">WOT</GaugeName>
+<GaugePointerName href="#ref-38"/>
+<DataItem id="ref-39">Throttle Position</DataItem>
+<DataKey id="ref-40">TPS</DataKey>
+<Min>0</Min>
+<Max>100</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>StateIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-41">AFR</GaugeName>
+<GaugePointerName href="#ref-41"/>
+<DataItem href="#ref-28"/>
+<DataKey href="#ref-29"/>
+<Min>7</Min>
+<Max>21</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-42">Coolant </GaugeName>
+<GaugePointerName href="#ref-42"/>
+<DataItem href="#ref-16"/>
+<DataKey href="#ref-17"/>
+<Min>0</Min>
+<Max>120</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-43">Battery</GaugeName>
+<GaugePointerName href="#ref-43"/>
+<DataItem href="#ref-20"/>
+<DataKey href="#ref-21"/>
+<Min>0</Min>
+<Max>16</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-44">Air Temp</GaugeName>
+<GaugePointerName href="#ref-44"/>
+<DataItem href="#ref-24"/>
+<DataKey href="#ref-25"/>
+<Min>0</Min>
+<Max>60</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-45">LTFT Idle</GaugeName>
+<GaugePointerName href="#ref-45"/>
+<DataItem href="#ref-6"/>
+<DataKey href="#ref-7"/>
+<Min>-15</Min>
+<Max>15</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-46">LTFT Cruise</GaugeName>
+<GaugePointerName href="#ref-46"/>
+<DataItem href="#ref-9"/>
+<DataKey href="#ref-10"/>
+<Min>-15</Min>
+<Max>15</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-47">LTFT WOT</GaugeName>
+<GaugePointerName href="#ref-47"/>
+<DataItem href="#ref-12"/>
+<DataKey href="#ref-13"/>
+<Min>-15</Min>
+<Max>15</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-48">AFR</GaugeName>
+<GaugePointerName href="#ref-48"/>
+<DataItem href="#ref-28"/>
+<DataKey href="#ref-29"/>
+<Min>7</Min>
+<Max>21</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-49">Timing</GaugeName>
+<GaugePointerName href="#ref-49"/>
+<DataItem id="ref-50">Timing Advance</DataItem>
+<DataKey id="ref-51">TimingAdv</DataKey>
+<Min>0</Min>
+<Max>50</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-52">Knock Sum</GaugeName>
+<GaugePointerName href="#ref-52"/>
+<DataItem href="#ref-33"/>
+<DataKey href="#ref-34"/>
+<Min>0</Min>
+<Max>50</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-53">Load</GaugeName>
+<GaugePointerName href="#ref-53"/>
+<DataItem id="ref-54">Load MUT 2Byte Mod</DataItem>
+<DataKey id="ref-55">LoadMUT2Byte</DataKey>
+<Min>0</Min>
+<Max>500</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-56">IDC</GaugeName>
+<GaugePointerName href="#ref-56"/>
+<DataItem id="ref-57">Injector Duty %</DataItem>
+<DataKey id="ref-58">InjDutyCycle</DataKey>
+<Min>0</Min>
+<Max>160</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-59">Power</GaugeName>
+<GaugePointerName href="#ref-59"/>
+<DataItem id="ref-60">Estimated Horsepower</DataItem>
+<DataKey id="ref-61">WHP</DataKey>
+<Min>0</Min>
+<Max>1000</Max>
+</item>
+<item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<GaugeType>NumericIndicator</GaugeType>
+<TemplateName xsi:null="1"/>
+<GaugeName id="ref-62">Torque</GaugeName>
+<GaugePointerName href="#ref-62"/>
+<DataItem id="ref-63">Estimated Torque</DataItem>
+<DataKey id="ref-64">Lbsft</DataKey>
+<Min>0</Min>
+<Max>1000</Max>
+</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
