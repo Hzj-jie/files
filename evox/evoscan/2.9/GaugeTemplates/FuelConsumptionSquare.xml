@@ -1,0 +1,34 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <CircularGauges>
+    <CircularGauge Name="Fuel Consumption">
+      <Scales>
+        <CircularScale Name="Default" BorderColor="White" BorderWidth="1" Radius="65" StartAngle="90" SweepAngle="180" Maximum="50" Width="0" FillColor="White" ShadowOffset="0">
+          <LabelStyle TextColor="White" Font="Microsoft Sans Serif, 18pt, style=Bold" RotateLabels="False" />
+          <MajorTickMark Width="6" BorderWidth="0" FillColor="White" />
+          <MinorTickMark Width="2.5" Length="9" BorderWidth="0" FillColor="White" DistanceFromScale="-1" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange Name="Range1" StartValue="0" EndValue="50" StartWidth="6" EndWidth="6" DistanceFromScale="-4" Placement="Cross" BorderColor="Gray" FillColor="LawnGreen" FillGradientType="LeftRight" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer NeedleStyle="NeedleStyle4" CapReflection="True" CapWidth="34" Width="5" FillGradientType="None" CapFillColor="Black" CapFillGradientType="None" Name="Default" ShadowOffset="0" BorderWidth="0" FillColor="Coral" />
+      </Pointers>
+      <PivotPoint X="50" Y="77" />
+      <Location X="0" Y="0" />
+      <Size Width="100" Height="100" />
+      <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BackColor="215, 0, 0, 0" BackGradientEndColor="50, 50, 50" />
+    </CircularGauge>
+  </CircularGauges>
+  <Labels>
+    <GaugeLabel Parent="CircularGauges.Fuel Consumption" Name="Label1" BackColor="" BackGradientEndColor="" Text="l/100kms" TextColor="White" Font="Microsoft Sans Serif, 12pt, style=Bold">
+      <Location X="-20.7053566" Y="82.95498" />
+      <Size Width="61" Height="13" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame Style="None" Shape="Rectangular" FrameWidth="2" FrameColor="DarkGray" FrameGradientType="None" BackColor="Black" BackGradientType="None" BackGradientEndColor="26, 59, 105" />
+</GaugeCore>

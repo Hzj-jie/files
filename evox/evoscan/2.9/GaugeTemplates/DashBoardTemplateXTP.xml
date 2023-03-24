@@ -1,0 +1,194 @@
+<GaugeCore AutoLayout="False" RefreshRate="0" BuildNumber="2.0.2.200" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <NamedImages>
+    <NamedImage Image="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2WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJYbrCmZKBas8/eb3SYOHQQtGxGR9ePZoJgEawph2s0OIaJYTK62WevJxOYzmasWv1oJggWwSJY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" Name="back.png" />
+  </NamedImages>
+  <CircularGauges>
+    <CircularGauge Name="Water Temp.">
+      <Scales>
+        <CircularScale Radius="18" StartAngle="90" SweepAngle="180" Name="Default" Maximum="300" Width="21" BorderColor="White" BorderStyle="DashDotDot" FillColor="Black" FillGradientType="Center" FillGradientEndColor="26, 31, 35" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="WhiteSmoke" />
+          <MajorTickMark Shape="Rectangle" Length="16" Width="3" BorderColor="Transparent" BorderWidth="0" />
+          <MinorTickMark Length="16" Width="1" Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="6" EndValue="8" EndWidth="15" DistanceFromScale="0" Placement="Cross" Name="Default" ShadowOffset="5" FillColor="Red" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="20" FillGradientType="Center" Name="a" ImageTransColor="Transparent" ImageHueColor="Transparent" Value="0" ShadowOffset="0" BorderColor="White" BorderStyle="Dash" BorderWidth="0" FillColor="Transparent" FillGradientEndColor="White" />
+      </Pointers>
+      <PivotPoint X="49" Y="50" />
+      <Location X="0" Y="-8" />
+      <Size Width="100" Height="100" />
+      <BackFrame FrameStyle="None" FrameShape="Circular" />
+    </CircularGauge>
+    <CircularGauge Name="Air Temperature">
+      <Scales>
+        <CircularScale Radius="18" StartAngle="90" SweepAngle="180" Name="Default" Maximum="255" Width="21" BorderColor="White" BorderStyle="DashDotDot" FillColor="Black" FillGradientType="Center" FillGradientEndColor="26, 31, 35" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="WhiteSmoke" />
+          <MajorTickMark Shape="Rectangle" Length="16" Width="3" BorderColor="Transparent" BorderWidth="0" />
+          <MinorTickMark Length="16" Width="1" Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="6" EndValue="8" EndWidth="15" DistanceFromScale="0" Placement="Cross" Name="Default" ShadowOffset="5" FillColor="Red" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="20" FillGradientType="Center" Name="a" ImageTransColor="Transparent" ImageHueColor="Transparent" Value="0" ShadowOffset="0" BorderColor="White" BorderStyle="Dash" BorderWidth="0" FillColor="Transparent" FillGradientEndColor="White" />
+      </Pointers>
+      <PivotPoint X="49" Y="50" />
+      <Location X="-32.8" Y="-8" />
+      <Size Width="100" Height="100" />
+      <BackFrame FrameStyle="None" FrameShape="Circular" />
+    </CircularGauge>
+    <CircularGauge Name="IDC%">
+      <Scales>
+        <CircularScale Radius="18" StartAngle="90" SweepAngle="180" Name="Default" Maximum="160" Width="21" BorderColor="White" BorderStyle="DashDotDot" FillColor="Black" FillGradientType="Center" FillGradientEndColor="26, 31, 35" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="WhiteSmoke" />
+          <MajorTickMark Shape="Rectangle" Length="16" Width="3" BorderColor="Transparent" BorderWidth="0" />
+          <MinorTickMark Length="16" Width="1" Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="6" EndValue="8" EndWidth="15" DistanceFromScale="0" Placement="Cross" Name="Default" ShadowOffset="5" FillColor="Red" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="20" FillGradientType="Center" Name="a" ImageTransColor="Transparent" ImageHueColor="Transparent" Value="0" ShadowOffset="0" BorderColor="White" BorderStyle="Dash" BorderWidth="0" FillColor="Transparent" FillGradientEndColor="White" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="32" Y="-8" />
+      <Size Width="100" Height="100" />
+      <BackFrame FrameStyle="None" FrameShape="Circular" />
+    </CircularGauge>
+    <CircularGauge Name="Timing">
+      <Scales>
+        <CircularScale Radius="18" StartAngle="90" SweepAngle="180" Name="Default" Maximum="50" Width="21" BorderColor="White" BorderStyle="DashDotDot" FillColor="Black" FillGradientType="Center" FillGradientEndColor="26, 31, 35" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="WhiteSmoke" />
+          <MajorTickMark Shape="Rectangle" Length="16" Width="3" BorderColor="Transparent" BorderWidth="0" />
+          <MinorTickMark Length="16" Width="1" Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="6" EndValue="8" EndWidth="15" DistanceFromScale="0" Placement="Cross" Name="Default" ShadowOffset="5" FillColor="Red" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="20" FillGradientType="Center" Name="a" ImageTransColor="Transparent" ImageHueColor="Transparent" Value="0" ShadowOffset="0" BorderColor="White" BorderStyle="Dash" BorderWidth="0" FillColor="Transparent" FillGradientEndColor="White" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="-33" Y="37" />
+      <Size Width="100" Height="100" />
+      <BackFrame FrameStyle="None" FrameShape="Circular" />
+    </CircularGauge>
+    <CircularGauge Name="Knock Sum">
+      <Scales>
+        <CircularScale Radius="18" StartAngle="90" SweepAngle="180" Name="Default" Maximum="50" Width="21" BorderColor="White" BorderStyle="DashDotDot" FillColor="Black" FillGradientType="Center" FillGradientEndColor="26, 31, 35" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="WhiteSmoke" />
+          <MajorTickMark Shape="Rectangle" Length="16" Width="3" BorderColor="Transparent" BorderWidth="0" />
+          <MinorTickMark Length="16" Width="1" Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="6" EndValue="8" EndWidth="15" DistanceFromScale="0" Placement="Cross" Name="Default" ShadowOffset="5" FillColor="Red" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="20" FillGradientType="Center" Name="a" ImageTransColor="Transparent" ImageHueColor="Transparent" Value="0" ShadowOffset="0" BorderColor="White" BorderStyle="Dash" BorderWidth="0" FillColor="Transparent" FillGradientEndColor="White" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="0" Y="37" />
+      <Size Width="100" Height="100" />
+      <BackFrame FrameStyle="None" FrameShape="Circular" />
+    </CircularGauge>
+    <CircularGauge Name="A/F Ratio">
+      <Scales>
+        <CircularScale Radius="18" StartAngle="90" SweepAngle="180" Name="Default" Maximum="60" Width="21" BorderColor="White" BorderStyle="DashDotDot" FillColor="Black" FillGradientType="Center" FillGradientEndColor="26, 31, 35" ShadowOffset="0">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="WhiteSmoke" />
+          <MajorTickMark Shape="Rectangle" Length="16" Width="3" BorderColor="Transparent" BorderWidth="0" />
+          <MinorTickMark Length="16" Width="1" Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="6" EndValue="8" EndWidth="15" DistanceFromScale="0" Placement="Cross" Name="Default" ShadowOffset="5" FillColor="Red" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="20" FillGradientType="Center" Name="a" ImageTransColor="Transparent" ImageHueColor="Transparent" Value="0" ShadowOffset="0" BorderColor="White" BorderStyle="Dash" BorderWidth="0" FillColor="Transparent" FillGradientEndColor="White" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="33" Y="37" />
+      <Size Width="100" Height="100" />
+      <BackFrame FrameStyle="None" FrameShape="Circular" />
+    </CircularGauge>
+  </CircularGauges>
+  <NumericIndicators>
+    <NumericIndicator Parent="CircularGauges.Water Temp." Name="Water Temp" IndicatorStyle="Digital7Segment" Digits="3" Decimals="0" ShowDecimalPoint="True" BorderColor="Transparent" SeparatorColor="Transparent" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="" Value="0">
+      <Location X="37" Y="45" />
+      <Size Width="20" Height="10" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Water Temp." Name="Air Temp" IndicatorStyle="Digital7Segment" Digits="3" Decimals="0" ShowDecimalPoint="True" BorderColor="Transparent" SeparatorColor="Transparent" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="0, 0, 0, 0" Value="0">
+      <Location X="-17" Y="45" />
+      <Size Width="20" Height="10" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Water Temp." Name="IDC%" IndicatorStyle="Digital7Segment" Digits="3" Decimals="0" ShowDecimalPoint="True" BorderColor="Transparent" SeparatorColor="Transparent" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="0, 0, 0, 0" Value="0">
+      <Location X="90" Y="45" />
+      <Size Width="20" Height="10" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Water Temp." Name="Timing" IndicatorStyle="Digital7Segment" Digits="2" Decimals="0" ShowDecimalPoint="True" BorderColor="Transparent" SeparatorColor="Transparent" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="0, 0, 0, 0" Value="0">
+      <Location X="-16" Y="90" />
+      <Size Width="17" Height="10" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Water Temp." Name="Knock Sum" IndicatorStyle="Digital7Segment" Digits="2" Decimals="0" ShowDecimalPoint="True" BorderColor="Transparent" SeparatorColor="Transparent" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="0, 0, 0, 0" Value="0">
+      <Location X="39" Y="90" />
+      <Size Width="17" Height="10" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Water Temp." Name="A/F Ratio" IndicatorStyle="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" BorderColor="Transparent" SeparatorColor="Transparent" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="0, 0, 0, 0" Value="0">
+      <Location X="89" Y="90" />
+      <Size Width="27" Height="10" />
+    </NumericIndicator>
+  </NumericIndicators>
+  <Labels>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="Water Temp" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 12pt" ResizeMode="None" BackColor="" TextColor="WhiteSmoke" BackGradientEndColor="" Text="Water Temperature">
+      <Location X="33" Y="21.1" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="Deg F" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 10pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="deg F">
+      <Location X="62" Y="52" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="Air Temperature" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 12pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="Air Temperature">
+      <Location X="-19" Y="21.1" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="deg F1" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 10pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="deg F">
+      <Location X="8" Y="52" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="%" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 10pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="%">
+      <Location X="115" Y="52" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="IDC%" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 12pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="Injector Duty %">
+      <Location X="90" Y="21.1" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="Timing" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 12pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="Timing">
+      <Location X="-10" Y="67" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="deg" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 10pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="deg ">
+      <Location X="8" Y="97" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="Knock Sum" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 12pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="Knock Sum">
+      <Location X="40" Y="67" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Water Temp." Name="A/F Ratio" TextAlignment="MiddleLeft" Font="Microsoft Sans Serif, 12pt" ResizeMode="None" BackColor="0, 0, 0, 0" TextColor="WhiteSmoke" BackGradientEndColor="0, 0, 0, 0" Text="A/F Ratio">
+      <Location X="96" Y="67" />
+      <Size Width="38" Height="2.2" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame FrameStyle="None" FrameShape="Rectangular" Image="back.png" />
+</GaugeCore>

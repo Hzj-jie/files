@@ -1,0 +1,496 @@
+<GaugeCore AutoLayout="False" BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Value="0" Name="Default" ValueLimit="21">
+      <History>
+        <HistoryEntry TimeStamp="2004-11-06T03:40:41.2656250+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:41:09.5625000+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:43:17.3437500+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:43:18.2812500+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:44:39.8750000+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:47:36.1718750+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:47:37.6250000+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:50:52.7812500+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:51:52.9687500+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:51:55.2656250+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:52:08.6093750+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:53:56.8281250+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:53:58.8125000+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2004-11-06T03:56:13.0937500+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:01:06.2324064+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:03:28.4669296+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:06:00.8260112+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:09:20.3228736+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:09:27.2928960+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:40:10.2329136+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:40:38.9141552+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T20:41:11.0904224+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T21:13:23.0985136+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T21:13:30.5091696+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T21:13:38.0700416+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T21:46:46.2589168+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T21:46:52.4578304+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T21:47:14.6196976+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-08T21:54:26.5808272+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:06:09.1030080+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:08:51.6567488+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:10:29.1569472+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:10:36.7678912+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:10:52.4404272+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:48:28.6246608+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:48:33.7019616+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:50:01.4982064+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:50:25.8732560+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:50:30.3697216+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:51:04.3686096+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:51:21.1527440+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:51:24.7378992+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:51:39.2087072+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:53:05.1923456+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:58:23.1094880+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T09:58:30.1295824+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:00:01.5410256+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:05:45.1250752+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:05:53.3669264+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:07:04.0285328+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:09:18.4418096+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:09:28.0756624+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:09:44.2789616+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:19:10.0224608+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:19:12.0854272+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:57:33.7049936+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:57:47.2845200+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:58:20.5824000+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:58:52.1477888+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T10:58:56.2637072+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:00:06.3645072+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:00:12.6235072+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:00:51.3592064+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:00:55.7555280+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:01:00.4422672+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:01:39.6186000+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:04:30.4242064+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:04:32.9177920+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-10-09T11:05:01.7292208+01:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:06:09.1071200+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:06:15.8968832+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:10:19.5772784+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:10:42.0596064+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:10:43.4315792+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:13:04.2140144+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:13:44.4218304+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:13:47.1056896+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:14:16.1274208+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:16:41.7968832+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:16:46.8341264+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:49:34.8139424+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:49:46.3905888+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T19:49:53.6209856+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T20:49:11.3767872+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T20:49:57.3629120+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T20:50:09.3501488+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:36:04.8123088+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:38:51.9826880+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:38:53.5249056+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:39:56.0648336+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:41:27.6665504+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:41:29.0485376+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:42:48.7130896+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:46:47.5064576+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:46:50.1903168+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:47:17.0689664+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:51:01.7921024+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:51:05.1369120+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:55:03.0389984+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:57:41.3065760+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T21:57:43.6799888+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-01T22:00:23.2193952+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T18:50:25.4581520+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T18:50:27.5311328+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T20:21:47.6111008+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T20:24:15.3435296+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T20:25:23.6217088+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:02:11.9837232+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:02:53.2330368+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:03:05.9513248+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:15:41.7180640+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:16:35.9159968+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:16:45.4897632+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:43:59.4392672+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:48:09.0281584+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:48:20.5747616+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:55:52.2342160+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:56:07.3159024+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T22:57:10.4066224+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:08:42.7922240+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:10:08.0347968+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:10:19.3911264+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:16:33.0584336+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:17:51.9719056+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:18:05.9019360+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:23:36.9880144+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:28:23.7703872+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:28:25.5529504+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:28:42.5173440+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:34:14.7250352+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:34:18.9611264+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:34:32.5206240+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:45:19.4608784+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:45:22.9258608+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:46:10.3039872+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:53:36.1250464+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:53:39.4598416+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:57:11.0641136+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:58:42.0249088+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:58:43.6572560+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-08T23:59:18.0166624+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T00:01:29.0450720+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T00:01:31.8090464+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T00:01:58.6476384+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T21:04:11.3158672+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T21:04:15.7021744+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T21:04:54.5680608+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T21:06:14.4028576+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T21:06:16.1153200+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-09T21:06:47.1599600+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T17:02:00.7671904+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T17:02:06.9260464+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T17:03:28.0026288+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T18:50:43.9370480+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T18:50:47.6624048+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T18:56:40.2894576+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T18:58:26.3018960+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T18:58:28.4750208+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T19:07:10.4756208+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T19:15:46.1471200+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T19:15:49.6822032+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T19:16:25.8542160+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T19:16:30.2405232+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T19:16:36.9000992+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2007-11-10T19:17:57.6862640+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-03T13:52:26.6041456+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-03T13:52:33.4139376+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-03T13:53:46.1885824+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-13T13:04:59.7851328+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-13T13:05:05.0927648+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-13T14:56:45.7878912+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-25T18:32:28.2546720+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-25T18:32:32.0601440+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-25T18:35:25.0088320+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:37:46.7306320+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:37:50.8064928+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:38:10.8252784+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:38:20.3790160+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:38:24.5450064+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:54:30.2335984+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:57:51.7133120+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:57:53.5159040+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:58:39.6722736+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:59:16.6454384+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T14:59:17.6969504+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:01:00.4346800+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:01:26.2317744+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:01:27.4134736+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:01:44.9687168+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:02:42.2610992+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:02:43.2124672+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:03:28.1771232+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:04:21.3335584+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:04:22.5252720+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:05:13.9692448+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:05:59.9954272+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:06:01.3373568+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:07:07.3923392+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:07:36.7545600+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T15:07:37.9462736+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T16:11:05.7916864+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T16:11:08.9862800+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T16:11:11.4798656+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T16:57:01.1336736+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:01:12.7855312+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:01:22.6897728+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:04:13.0046736+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:06:04.8955648+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:06:11.2246656+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:16:31.7769760+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:18:44.5779344+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:18:53.0501168+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:23:44.7095024+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:25:37.2713584+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:25:45.3930368+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:31:00.4961328+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:31:19.2631184+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:34:34.8543648+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:36:41.2060496+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:36:51.4607952+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:38:27.6390928+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:38:30.5432688+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:38:32.7764800+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:40:02.8059360+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:40:05.4797808+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T17:40:07.3524736+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T18:17:56.1248080+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T18:18:17.4454656+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T18:18:23.6143360+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T18:43:41.5570304+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T19:14:25.2080704+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T19:14:27.0306912+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T19:18:16.6508688+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T19:24:14.3952800+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T19:24:17.0390816+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-27T19:25:09.7248400+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T09:51:02.6094192+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T09:51:14.0258352+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T11:26:39.0279840+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T11:29:52.4260768+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T11:29:54.0584240+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T11:33:12.7140768+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T11:39:58.4274640+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T11:40:00.1899984+00:00" Value="0" />
+        <HistoryEntry TimeStamp="2008-01-28T12:02:44.4617248+00:00" Value="0" />
+      </History>
+    </InputValue>
+  </Values>
+  <CircularGauges>
+    <CircularGauge Name="Battery">
+      <Scales>
+        <CircularScale StartAngle="90" Radius="50" SweepAngle="180" Name="Battery" Maximum="18" Width="10" FillColor="Transparent" ShadowOffset="5">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="White" DistanceFromScale="4" />
+          <MajorTickMark Shape="Rectangle" Length="20" Width="5" BorderWidth="0" DistanceFromScale="-5" />
+          <MinorTickMark Length="20" Width="5" Visible="False" BorderColor="White" BorderWidth="0" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="0" EndValue="12" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Default" ScaleName="Battery" BorderWidth="0" FillColor="Firebrick" FillGradientEndColor="Firebrick" />
+        <CircularRange StartValue="12" EndValue="15" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range1" ScaleName="Battery" BorderWidth="0" FillColor="ForestGreen" FillGradientEndColor="ForestGreen" />
+        <CircularRange StartValue="15" EndValue="18" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range2" ScaleName="Battery" BorderWidth="0" FillColor="Firebrick" FillGradientEndColor="Firebrick" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" NeedleStyle="NeedleStyle3" Placement="Inside" Width="5" MarkerStyle="Rectangle" MarkerLength="40" FillGradientType="None" Name="Battery" ScaleName="Battery" ShadowOffset="3" BorderColor="White" BorderWidth="2" FillGradientEndColor="WhiteSmoke" />
+      </Pointers>
+      <PivotPoint X="50" Y="70" />
+      <Location X="1.9607774" Y="3.313715" />
+      <Size Width="25" Height="25" />
+      <BackFrame Style="Simple" Shape="RoundedRectangular" FrameWidth="0" FrameColor="" FrameGradientEndColor="" BorderColor="DimGray" BackColor="DimGray" BackGradientType="TopBottom" BackGradientEndColor="Black" />
+    </CircularGauge>
+    <CircularGauge Name="Air Temp">
+      <Scales>
+        <CircularScale StartAngle="90" Radius="50" SweepAngle="180" Name="Air Temp" Maximum="60" Width="10" FillColor="Transparent" ShadowOffset="5">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="White" DistanceFromScale="4" />
+          <MajorTickMark Shape="Rectangle" Length="20" Width="5" BorderWidth="0" DistanceFromScale="-5" />
+          <MinorTickMark Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="0" EndValue="15" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Default" ScaleName="Air Temp" BorderWidth="0" FillColor="DodgerBlue" FillGradientEndColor="DodgerBlue" />
+        <CircularRange StartValue="15" EndValue="30" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range1" ScaleName="Air Temp" BorderWidth="0" FillColor="Gold" FillGradientEndColor="Gold" />
+        <CircularRange StartValue="30" EndValue="60" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range2" ScaleName="Air Temp" BorderWidth="0" FillColor="Firebrick" FillGradientEndColor="Firebrick" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="5" FillGradientType="None" Name="Air temp" ScaleName="Air Temp" ShadowOffset="3" BorderColor="WhiteSmoke" BorderWidth="2" FillColor="WhiteSmoke" FillGradientEndColor="WhiteSmoke" />
+      </Pointers>
+      <PivotPoint X="50" Y="70" />
+      <Location X="1.9607774" Y="68.5555038" />
+      <Size Width="25" Height="25" />
+      <BackFrame Style="Simple" Shape="RoundedRectangular" FrameWidth="0" FrameColor="Transparent" FrameGradientEndColor="Transparent" BackColor="DimGray" BackGradientType="TopBottom" BackGradientEndColor="Black" />
+    </CircularGauge>
+    <CircularGauge Name="Coolant temp">
+      <Scales>
+        <CircularScale StartAngle="90" Radius="50" SweepAngle="180" Name="Coolant temp" Maximum="120" Width="10" FillColor="Transparent" ShadowOffset="5">
+          <LabelStyle RotateLabels="False" Placement="Outside" TextColor="White" DistanceFromScale="4" />
+          <MajorTickMark Shape="Rectangle" Length="20" Width="5" BorderWidth="0" DistanceFromScale="-5" />
+          <MinorTickMark Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="0" EndValue="70" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Default" ScaleName="Coolant temp" BorderWidth="0" FillColor="DodgerBlue" FillGradientEndColor="DodgerBlue" />
+        <CircularRange EndValue="90" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range1" ScaleName="Coolant temp" BorderWidth="0" FillColor="ForestGreen" FillGradientEndColor="ForestGreen" />
+        <CircularRange StartValue="90" EndValue="120" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range2" ScaleName="Coolant temp" BorderWidth="0" FillColor="Firebrick" FillGradientEndColor="Firebrick" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Bar" Placement="Inside" Width="5" FillGradientType="None" Name="Coolant temp" ScaleName="Coolant temp" ShadowOffset="3" BorderColor="WhiteSmoke" BorderWidth="2" FillColor="WhiteSmoke" FillGradientEndColor="WhiteSmoke" />
+      </Pointers>
+      <PivotPoint X="50" Y="70" />
+      <Location X="1.960777" Y="35.5555229" />
+      <Size Width="25" Height="25" />
+      <BackFrame Style="Simple" Shape="RoundedRectangular" FrameWidth="0" FrameColor="Transparent" FrameGradientEndColor="Transparent" BackColor="DimGray" BackGradientType="TopBottom" BackGradientEndColor="Black" />
+    </CircularGauge>
+    <CircularGauge Name="AFR">
+      <Scales>
+        <CircularScale StartAngle="60" Radius="40" SweepAngle="240" Name="AFR" Minimum="7" Maximum="21" Width="10" FillColor="Transparent" ShadowOffset="5">
+          <LabelStyle RotateLabels="False" Font="Microsoft Sans Serif, 18pt" Placement="Outside" TextColor="White" />
+          <MajorTickMark Shape="Rectangle" Length="15" Width="5" />
+          <MinorTickMark Visible="False" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange StartValue="7" EndValue="11" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Default" ScaleName="AFR" BorderWidth="0" FillColor="Gold" FillGradientEndColor="Gold" />
+        <CircularRange StartValue="11" EndValue="12.5" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range1" ScaleName="AFR" BorderWidth="0" FillColor="LimeGreen" FillGradientEndColor="LimeGreen" />
+        <CircularRange StartValue="12.5" EndValue="21" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range2" ScaleName="AFR" BorderWidth="0" FillColor="Firebrick" FillGradientEndColor="Firebrick" />
+        <CircularRange StartValue="14.5" EndValue="15" StartWidth="10" EndWidth="10" DistanceFromScale="-7" Name="Range3" ScaleName="AFR" BorderWidth="0" FillColor="DeepSkyBlue" FillGradientEndColor="DeepSkyBlue" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer Type="Marker" Width="10" MarkerStyle="Rectangle" MarkerLength="20" Name="AFR" ScaleName="AFR" DistanceFromScale="3" FillGradientEndColor="White" />
+      </Pointers>
+      <PivotPoint X="65" Y="55" />
+      <Location X="30.9803829" Y="3.59740162" />
+      <Size Width="40" Height="48" />
+      <BackFrame Style="Simple" Shape="RoundedRectangular" FrameWidth="0" FrameGradientEndColor="Transparent" BackColor="DimGray" BackGradientType="TopBottom" BackGradientEndColor="Black" />
+    </CircularGauge>
+  </CircularGauges>
+  <LinearGauges>
+    <LinearGauge Name="Divider1">
+      <Scales>
+        <LinearScale Name="divider1" BorderColor="Transparent" FillColor="Transparent" ShadowOffset="0">
+          <LabelStyle TextColor="Transparent" />
+          <MajorTickMark Visible="False" />
+          <MinorTickMark Visible="False" />
+        </LinearScale>
+      </Scales>
+      <Pointers>
+        <LinearPointer Width="0" MarkerLength="0" ThermometerBackColor="" ThermometerBackGradientEndColor="" Name="Default" ScaleName="divider1" BorderColor="Transparent" BorderWidth="0" FillColor="Transparent" FillGradientEndColor="Transparent" />
+      </Pointers>
+      <Location X="28.2352943" Y="1.30718958" />
+      <Size Width="2" Height="98" />
+      <BackFrame Style="Edged" Shape="Rectangular" FrameWidth="0" FrameColor="DimGray" FrameGradientEndColor="DimGray" BackColor="DimGray" BackGradientEndColor="DimGray" />
+    </LinearGauge>
+  </LinearGauges>
+  <NumericIndicators>
+    <NumericIndicator Parent="CircularGauges.Battery" Name="battery" Style="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="None" BorderWidth="0" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="White" DecimalColor="WhiteSmoke" LedDimColor="20, 0, 0, 0">
+      <Location X="13.4736395" Y="41.05259" />
+      <Size Width="75" Height="40" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Coolant temp" Name="Coolant" Style="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderWidth="0" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="20, 0, 0, 0">
+      <Location X="15.4736042" Y="38.1576958" />
+      <Size Width="70" Height="50" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.Air Temp" Name="Air Temp" Style="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="None" BorderWidth="0" BackColor="Transparent" BackGradientEndColor="Transparent" DigitColor="WhiteSmoke" DecimalColor="WhiteSmoke" LedDimColor="20, 0, 0, 0">
+      <Location X="14.2631207" Y="42.3682632" />
+      <Size Width="70" Height="40" />
+    </NumericIndicator>
+    <NumericIndicator Parent="" Name="Knock sum" Style="Digital7Segment" Digits="2" Decimals="0" ShowSign="None" BorderWidth="0" BackGradientType="TopBottom" BackGradientEndColor="Black" DigitColor="IndianRed" DecimalColor="IndianRed" LedDimColor="20, 0, 0, 0">
+      <Location X="72.941124" Y="30.49545" />
+      <Size Width="25" Height="20" />
+    </NumericIndicator>
+    <NumericIndicator Parent="" Name="Timing" Style="Digital7Segment" Digits="2" Decimals="0" ShowSign="Both" BorderWidth="0" BackGradientType="TopBottom" BackGradientEndColor="Black" DigitColor="LightCyan" DecimalColor="LightCyan" LedDimColor="20, 0, 0, 0">
+      <Location X="72.94113" Y="3.89606357" />
+      <Size Width="25" Height="20" />
+    </NumericIndicator>
+    <NumericIndicator Parent="" Name="Load" Style="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderWidth="0" BackGradientType="TopBottom" BackGradientEndColor="Black" DigitColor="PaleGreen" DecimalColor="PaleGreen" LedDimColor="20, 0, 0, 0">
+      <Location X="30.9999981" Y="56.8440781" />
+      <Size Width="40" Height="20" />
+    </NumericIndicator>
+    <NumericIndicator Parent="" Name="LTFT IDLE" Style="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="Both" BorderWidth="0" BackGradientType="TopBottom" BackGradientEndColor="Black" DigitColor="PaleTurquoise" DecimalColor="PaleTurquoise" LedDimColor="20, 0, 0, 0">
+      <Location X="30.9999981" Y="85.63821" />
+      <Size Width="20" Height="7" />
+    </NumericIndicator>
+    <NumericIndicator Parent="" Name="LTFT CRUISE" Style="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="Both" BorderWidth="0" BackGradientType="TopBottom" BackGradientEndColor="Black" DigitColor="Khaki" DecimalColor="Khaki" LedDimColor="20, 0, 0, 0">
+      <Location X="54.5" Y="85.63818" />
+      <Size Width="20" Height="7" />
+    </NumericIndicator>
+    <NumericIndicator Parent="" Name="LTFT WOT" Style="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="Both" BorderWidth="0" BackGradientType="TopBottom" BackGradientEndColor="Black" DigitColor="MistyRose" DecimalColor="MistyRose" LedDimColor="20, 0, 0, 0">
+      <Location X="77.68619" Y="85.6382" />
+      <Size Width="20" Height="7" />
+    </NumericIndicator>
+    <NumericIndicator Parent="CircularGauges.AFR" Name="AFR" Style="Digital7Segment" Digits="4" Decimals="2" ShowDecimalPoint="True" ShowSign="None" BorderWidth="0" BackColor="Transparent" BackGradientType="TopBottom" BackGradientEndColor="Transparent" DigitColor="White" DecimalColor="White" LedDimColor="20, 0, 0, 0">
+      <Location X="35.0091972" Y="36.80156" />
+      <Size Width="60" Height="38" />
+    </NumericIndicator>
+    <NumericIndicator Parent="" Name="IDC" Style="Digital7Segment" Digits="4" ShowDecimalPoint="True" ShowSign="None" BorderWidth="0" BackGradientType="TopBottom" BackGradientEndColor="Black" DigitColor="PowderBlue" DecimalColor="PowderBlue" LedDimColor="20, 0, 0, 0">
+      <Location X="72.91114" Y="56.93141" />
+      <Size Width="25" Height="20" />
+    </NumericIndicator>
+  </NumericIndicators>
+  <StateIndicators>
+    <StateIndicator Parent="CircularGauges.Battery" Name="Battery" Style="Text" Font="Microsoft Sans Serif, 15.75pt, style=Bold, Italic" FillColor="Transparent" Text="Battery Voltage ****" ResizeMode="None">
+      <States>
+        <State Name="Battery Low " StartValue="0" EndValue="12" Font="Microsoft Sans Serif, 12pt, style=Bold, Italic" Text="Battery Voltage Low" />
+        <State Name="Battery High" StartValue="15" EndValue="20" Font="Microsoft Sans Serif, 12pt, style=Bold, Italic" FillColor="Yellow" Text="Battery Voltage High" />
+      </States>
+      <Location X="-23.8947735" Y="79.1052246" />
+      <Size Width="150" Height="50" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.Coolant temp" Name="Coolant" Style="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Coolant Temp ****" ResizeMode="None">
+      <States>
+        <State Name="Coolant Low" StartValue="0" EndValue="70" Font="Microsoft Sans Serif, 15.75pt, style=Bold, Italic" FillColor="Cyan" Text="Coolant Temp Low" />
+        <State Name="Coolant High" StartValue="90" EndValue="120" Font="Microsoft Sans Serif, 15.75pt, style=Bold, Italic" Text="Coolant Temp High" />
+      </States>
+      <Location X="-27.2105541" Y="82.6315" />
+      <Size Width="150" Height="50" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.AFR" Name="AFR Rich" Style="Text" FillColor="Transparent" Text="AFR Rich">
+      <States>
+        <State Name="AFR Rich" StartValue="7" EndValue="11" FillColor="Gold" Text="AFR Rich" />
+      </States>
+      <Location X="-20.06943" Y="54.30268" />
+      <Size Width="40" Height="20" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.AFR" Name="AFR POWER" Style="Text" FillColor="Transparent" Text="MBT">
+      <States>
+        <State Name="Torque" StartValue="11" EndValue="12.5" FillColor="LimeGreen" Text="MBT" />
+      </States>
+      <Location X="-22.8828354" Y="45.3527565" />
+      <Size Width="30" Height="12" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.AFR" Name="AFR LEAN" Style="Text" FillColor="Transparent" Text="AFR Lean">
+      <States>
+        <State Name="AFR Lean" StartValue="12.5" EndValue="21" FillColor="OrangeRed" Text="AFR Lean" />
+      </States>
+      <Location X="-25.68607" Y="18.7790051" />
+      <Size Width="49" Height="10" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.AFR" Name="AFR Stioch" Style="Text" FillColor="Transparent" Text="Stioch">
+      <States>
+        <State Name="stioch" StartValue="14.5" EndValue="15" FillColor="Aquamarine" Text="Stioch" />
+      </States>
+      <Location X="-20.2106857" Y="29.4183464" />
+      <Size Width="30" Height="16" />
+    </StateIndicator>
+  </StateIndicators>
+  <Labels>
+    <GaugeLabel Parent="CircularGauges.Battery" Name="Battery" BackColor="" BackGradientEndColor="" Text="Battery Voltage" TextColor="White">
+      <Location X="6.777752" Y="78.111084" />
+      <Size Width="90" Height="60" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Air Temp" Name="Air Temp" BackColor="" BackGradientEndColor="" Text="Air Temp" TextColor="White">
+      <Location X="24.444313" Y="77.8887558" />
+      <Size Width="55" Height="50" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Coolant temp" Name="Coolant Temp" BackColor="" BackGradientEndColor="" Text="Coolant Temp" TextColor="White">
+      <Location X="11.666522" Y="78.66662" />
+      <Size Width="80" Height="50" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.AFR" Name="AFR" BackColor="" BackGradientEndColor="" Text="Air Fuel Ratio" TextColor="White">
+      <Location X="36.99984" Y="82.3938751" />
+      <Size Width="60" Height="50" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Knock sum" Name="Knock sum" BackColor="" BackGradientEndColor="" Text="Knock sum" TextColor="WhiteSmoke">
+      <Location X="25.9364262" Y="98.66657" />
+      <Size Width="50" Height="60" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Timing" Name="Timing" BackColor="" BackGradientEndColor="" Text="Timing Adv Deg" TextColor="White">
+      <Location X="17.93642" Y="98.6666" />
+      <Size Width="65" Height="60" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.Load" Name="Load" BackColor="" BackGradientEndColor="" Text="Engine Load %" TextColor="White">
+      <Location X="28.93644" Y="97.66652" />
+      <Size Width="45" Height="50" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.LTFT IDLE" Name="LTFT Idle" BackColor="" BackGradientEndColor="" Text="LTFT Idle" TextColor="White">
+      <Location X="23.9756165" Y="105.666443" />
+      <Size Width="80" Height="70" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.LTFT CRUISE" Name="LTFT Cruise" BackColor="" BackGradientEndColor="" Text="LTFT Cruise" TextColor="White">
+      <Location X="17.97552" Y="105.666321" />
+      <Size Width="80" Height="70" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.LTFT WOT" Name="LTFT WOT" BackColor="" BackGradientEndColor="" Text="LTFT WOT" TextColor="White">
+      <Location X="20.9755936" Y="105.666443" />
+      <Size Width="80" Height="70" />
+    </GaugeLabel>
+    <GaugeLabel Parent="NumericIndicators.IDC" Name="IDC" BackColor="" BackGradientEndColor="" Text="IDC %" TextColor="WhiteSmoke">
+      <Location X="36.9755363" Y="97.66646" />
+      <Size Width="30" Height="50" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="2" FrameColor="DimGray" FrameGradientType="None" FrameGradientEndColor="DimGray" BackColor="Black" BackGradientType="HorizontalCenter" BackGradientEndColor="Black" />
+</GaugeCore>

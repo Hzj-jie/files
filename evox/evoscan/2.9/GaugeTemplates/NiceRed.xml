@@ -1,0 +1,22 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <CircularGauges>
+    <CircularGauge Name="Default">
+      <Scales>
+        <CircularScale Name="Default">
+        </CircularScale>
+      </Scales>
+      <Pointers>
+        <CircularPointer Name="Default" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="0" Y="0" />
+      <Size Width="100" Height="100" />
+      <BackFrame Style="Edged" Shape="Circular" FrameColor="Salmon" BackGradientEndColor="Snow" />
+    </CircularGauge>
+  </CircularGauges>
+  <BackFrame Style="None" Shape="Rectangular" FrameColor="Tomato" FrameGradientEndColor="Snow" BackColor="Red" BackGradientEndColor="Red" />
+</GaugeCore>

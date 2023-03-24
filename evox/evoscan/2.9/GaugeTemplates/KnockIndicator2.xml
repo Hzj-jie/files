@@ -1,0 +1,33 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <CircularGauges>
+    <CircularGauge Name="Default">
+      <Scales>
+        <CircularScale Name="Default" BorderColor="White" BorderWidth="1" FillColor="White">
+          <LabelStyle TextColor="White" />
+          <MajorTickMark Shape="Rectangle" Width="4" FillColor="White" />
+          <MinorTickMark Width="2" FillColor="White" />
+        </CircularScale>
+      </Scales>
+      <PivotPoint X="50" Y="50" />
+      <Location X="0" Y="0" />
+      <Size Width="100" Height="100" />
+      <BackFrame Style="None" Shape="Circular" FrameWidth="5" FrameColor="White" FrameGradientEndColor="White" BackColor="5, 100, 146" BackGradientEndColor="26, 59, 105" />
+    </CircularGauge>
+  </CircularGauges>
+  <StateIndicators>
+    <StateIndicator Parent="" Name="Color Indicator" FillColor="Honeydew" FillGradientType="None" FillGradientEndColor="Honeydew">
+      <States>
+        <State Name="State1" StartValue="0" EndValue="5" FillColor="Honeydew" FillGradientEndColor="Honeydew" />
+        <State Name="State2" StartValue="6" EndValue="12" FillColor="Yellow" FillGradientEndColor="Yellow" />
+        <State Name="State3" StartValue="12" EndValue="50" FillGradientEndColor="Red" />
+      </States>
+      <Location X="0" Y="0" />
+      <Size Width="100" Height="100" />
+    </StateIndicator>
+  </StateIndicators>
+  <BackFrame Style="None" Shape="Rectangular" FrameWidth="5" FrameColor="White" FrameGradientEndColor="White" BackColor="5, 100, 146" BackGradientEndColor="26, 59, 105" />
+</GaugeCore>

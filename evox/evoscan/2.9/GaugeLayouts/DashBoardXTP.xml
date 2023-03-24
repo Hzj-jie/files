@@ -1,0 +1,148 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <Top>20</Top>
+    <Left>40</Left>
+    <Width>744</Width>
+    <Height>456</Height>
+    <GaugeTemplateFileName>DashBoardTemplateXTP</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections"&gt;
+&lt;_items href="#ref-2"/&gt;
+&lt;_size&gt;12&lt;/_size&gt;
+&lt;_version&gt;58&lt;/_version&gt;
+&lt;/a1:ArrayList&gt;
+&lt;SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[16]"&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-4"&gt;Water Temp.&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-5"&gt;a&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-6"&gt;Coolant Temp&lt;/DataItem&gt;
+&lt;DataKey id="ref-7"&gt;CoolantTemp&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;300&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-8"&gt;Air Temperature&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-9"&gt;a&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-10"&gt;Air Temperature&lt;/DataItem&gt;
+&lt;DataKey id="ref-11"&gt;AirTemp&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;255&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-12"&gt;IDC%&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-13"&gt;a&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-14"&gt;Injector Duty %&lt;/DataItem&gt;
+&lt;DataKey id="ref-15"&gt;InjDutyCycle&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;160&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-16"&gt;Timing&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-17"&gt;a&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-18"&gt;Timing Advance&lt;/DataItem&gt;
+&lt;DataKey id="ref-19"&gt;TimingAdv&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-20"&gt;Knock Sum&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-21"&gt;a&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-22"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey id="ref-23"&gt;KnockSum&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-24"&gt;A/F Ratio&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-25"&gt;a&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-26"&gt;External Wideband A/F Ratio&lt;/DataItem&gt;
+&lt;DataKey id="ref-27"&gt;WideBandAF&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;60&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-28"&gt;Water Temp&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-28"/&gt;
+&lt;DataItem href="#ref-6"/&gt;
+&lt;DataKey href="#ref-7"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;300&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-29"&gt;Air Temp&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-29"/&gt;
+&lt;DataItem href="#ref-10"/&gt;
+&lt;DataKey href="#ref-11"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;255&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-30"&gt;IDC%&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-30"/&gt;
+&lt;DataItem href="#ref-14"/&gt;
+&lt;DataKey href="#ref-15"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;160&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-31"&gt;Timing&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-31"/&gt;
+&lt;DataItem href="#ref-18"/&gt;
+&lt;DataKey href="#ref-19"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-32"&gt;Knock Sum&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-32"/&gt;
+&lt;DataItem href="#ref-22"/&gt;
+&lt;DataKey href="#ref-23"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-33"&gt;A/F Ratio&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-33"/&gt;
+&lt;DataItem href="#ref-26"/&gt;
+&lt;DataKey href="#ref-27"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;60&lt;/Max&gt;
+&lt;/item&gt;
+&lt;/SOAP-ENC:Array&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</DataRequestItemsSerialized>
+    <Reserved1>none</Reserved1>
+    <Reserved2>-1</Reserved2>
+    <Reserved3 />
+    <Reserved4 />
+    <Reserved5 />
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,23 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <NumericIndicators>
+    <NumericIndicator Parent="" Name="Indicator1" Digits="3" Decimals="0" BorderColor="Gainsboro" BorderWidth="0" SeparatorColor="Transparent" BackColor="Transparent" BackGradientType="None" DigitColor="White" DecimalColor="White" LedDimColor="20, 0, 0, 0" Value="367.12">
+      <Location X="0" Y="0" />
+      <Size Width="99" Height="99" />
+    </NumericIndicator>
+  </NumericIndicators>
+  <Labels>
+    <GaugeLabel Parent="" Name="Title" BackColor="" BackGradientEndColor="" Text="Barometer" TextColor="White">
+      <Location X="1.392155" Y="27.6636925" />
+      <Size Width="31" Height="45" />
+    </GaugeLabel>
+    <GaugeLabel Parent="" Name="Unit" BackColor="" BackGradientEndColor="" Text="Kpa" TextColor="White" TextAlignment="MiddleLeft">
+      <Location X="11.64705" Y="51.7632141" />
+      <Size Width="48" Height="19" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BorderColor="Gainsboro" BackColor="Black" BackGradientEndColor="50, 50, 50" />
+</GaugeCore>

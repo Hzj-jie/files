@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <Top>83</Top>
+    <Left>425</Left>
+    <Width>400</Width>
+    <Height>389</Height>
+    <GaugeTemplateFileName>XTP_BlackGrayWhiteTemplate_Right</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections"&gt;
+&lt;_items href="#ref-2"/&gt;
+&lt;_size&gt;4&lt;/_size&gt;
+&lt;_version&gt;4&lt;/_version&gt;
+&lt;/a1:ArrayList&gt;
+&lt;SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]"&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-4"&gt;Speed&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-5"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-6"&gt;Speed&lt;/DataItem&gt;
+&lt;DataKey id="ref-7"&gt;Speed&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;280&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-8"&gt;RPM&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-9"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-10"&gt;Engine RPM&lt;/DataItem&gt;
+&lt;DataKey id="ref-11"&gt;RPM&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;8&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-12"&gt;Speed&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-12"/&gt;
+&lt;DataItem id="ref-13"&gt;Speed&lt;/DataItem&gt;
+&lt;DataKey href="#ref-7"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;280&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-14"&gt;RPM&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-14"/&gt;
+&lt;DataItem id="ref-15"&gt;Engine RPM&lt;/DataItem&gt;
+&lt;DataKey href="#ref-11"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;8&lt;/Max&gt;
+&lt;/item&gt;
+&lt;/SOAP-ENC:Array&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</DataRequestItemsSerialized>
+    <Reserved1 />
+    <Reserved2 />
+    <Reserved3 />
+    <Reserved4 />
+    <Reserved5 />
+  </Table1>
+</NewDataSet>

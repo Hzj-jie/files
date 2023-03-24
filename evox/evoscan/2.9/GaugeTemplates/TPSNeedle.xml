@@ -1,0 +1,38 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <CircularGauges>
+    <CircularGauge Name="Default">
+      <Scales>
+        <CircularScale Name="Default" BorderColor="White" BorderWidth="1" Radius="239" StartAngle="245" SweepAngle="45" Reversed="True" Width="0" FillColor="White" ShadowOffset="0">
+          <LabelStyle TextColor="White" Font="Microsoft Sans Serif, 8.25pt" RotateLabels="False" />
+          <MajorTickMark Width="4" Length="5" BorderWidth="0" FillColor="White" />
+          <MinorTickMark Width="1.5" Length="4" BorderWidth="0" FillColor="White" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange Name="Default" StartValue="0" StartWidth="3" EndWidth="3" DistanceFromScale="-3" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer NeedleStyle="NeedleStyle4" CapVisible="False" CapWidth="30" Width="2.1" FillGradientType="None" CapFillColor="Silver" CapFillGradientType="None" Name="Default" ShadowOffset="0" BorderWidth="0" FillColor="OrangeRed" />
+      </Pointers>
+      <PivotPoint X="-161" Y="60" />
+      <Location X="0" Y="0" />
+      <Size Width="100" Height="100" />
+      <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BackColor="Black" BackGradientEndColor="50, 50, 50" />
+    </CircularGauge>
+  </CircularGauges>
+  <Labels>
+    <GaugeLabel Parent="CircularGauges.Default" Name="Label1" BackColor="" BackGradientEndColor="" Text="Throttle" TextColor="White">
+      <Location X="8.963095" Y="5.412713" />
+      <Size Width="49" Height="22" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Default" Name="Label3" BackColor="" BackGradientEndColor="" Text="%" TextColor="White">
+      <Location X="25.9826851" Y="78.18689" />
+      <Size Width="29" Height="21" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame Style="None" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BackColor="Black" BackGradientType="None" BackGradientEndColor="26, 59, 105" />
+</GaugeCore>

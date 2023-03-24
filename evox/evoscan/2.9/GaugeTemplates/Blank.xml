@@ -1,0 +1,7 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BorderColor="Gainsboro" BackColor="Black" BackGradientEndColor="50, 50, 50" />
+</GaugeCore>

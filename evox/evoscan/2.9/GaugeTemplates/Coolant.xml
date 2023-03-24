@@ -1,0 +1,23 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <NumericIndicators>
+    <NumericIndicator Parent="" Name="Coolant Temperature" Digits="3" Decimals="0" BorderColor="Gainsboro" BorderWidth="0" SeparatorColor="Transparent" BackColor="Transparent" BackGradientType="None" DigitColor="White" DecimalColor="White" LedDimColor="20, 0, 0, 0" Value="367.12">
+      <Location X="0" Y="0" />
+      <Size Width="99" Height="99" />
+    </NumericIndicator>
+  </NumericIndicators>
+  <Labels>
+    <GaugeLabel Parent="" Name="Title" BackColor="" BackGradientEndColor="" Text="Coolant" TextColor="White">
+      <Location X="2.56862569" Y="19.54545" />
+      <Size Width="28" Height="45" />
+    </GaugeLabel>
+    <GaugeLabel Parent="" Name="Degrees" BackColor="" BackGradientEndColor="" Text="°C" TextColor="White">
+      <Location X="11.0588179" Y="52.8866768" />
+      <Size Width="12" Height="30" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BorderColor="Gainsboro" BackColor="Black" BackGradientEndColor="50, 50, 50" />
+</GaugeCore>

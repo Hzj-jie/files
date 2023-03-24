@@ -1,0 +1,13 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <NumericIndicators>
+    <NumericIndicator Parent="" Name="Other" Digits="3" Decimals="0" BorderColor="Gainsboro" BorderWidth="0" SeparatorColor="Transparent" BackColor="Transparent" BackGradientType="None" DigitColor="Transparent" DecimalColor="White" LedDimColor="20, 0, 0, 0" Value="367.12">
+      <Location X="-40" Y="-10" />
+      <Size Width="145" Height="121" />
+    </NumericIndicator>
+  </NumericIndicators>
+  <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BorderColor="Gainsboro" BackColor="Black" BackGradientEndColor="50, 50, 50" />
+</GaugeCore>

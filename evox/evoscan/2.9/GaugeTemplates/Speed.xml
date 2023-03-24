@@ -1,0 +1,104 @@
+<GaugeCore BuildNumber="1.6.2.35E" ControlType="DundasWinGauge">
+  <Values>
+    <InputValue Name="Default">
+    </InputValue>
+  </Values>
+  <CircularGauges>
+    <CircularGauge Name="Speed">
+      <Scales>
+        <CircularScale Name="Default" BorderColor="White" BorderWidth="1" Radius="44" StartAngle="90" SweepAngle="240" Maximum="140" Width="0" FillColor="White" ShadowOffset="0">
+          <LabelStyle TextColor="White" Font="Microsoft Sans Serif, 18pt, style=Bold" RotateLabels="False" />
+          <MajorTickMark Width="6" BorderWidth="0" FillColor="White" />
+          <MinorTickMark Width="2.5" Length="9" BorderWidth="0" FillColor="White" />
+        </CircularScale>
+      </Scales>
+      <Ranges>
+        <CircularRange Name="Range1" StartValue="100" EndValue="140" StartWidth="6" EndWidth="6" DistanceFromScale="-4" Placement="Cross" BorderColor="Gray" FillColor="Red" FillGradientType="None" />
+      </Ranges>
+      <Pointers>
+        <CircularPointer NeedleStyle="NeedleStyle4" CapReflection="True" CapWidth="34" Width="5" FillGradientType="None" CapFillColor="Black" CapFillGradientType="None" Name="Default" ShadowOffset="0" BorderWidth="0" FillColor="Coral" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="0" Y="0" />
+      <Size Width="100" Height="100" />
+      <BackFrame Style="Simple" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BackColor="215, 0, 0, 0" BackGradientEndColor="50, 50, 50" />
+    </CircularGauge>
+  </CircularGauges>
+  <StateIndicators>
+    <StateIndicator Parent="CircularGauges.Speed" Name="First" FillColor="Black" FillGradientEndColor="Black">
+      <States>
+        <State Name="On" StartValue="100" EndValue="1000" FillColor="LawnGreen" FillGradientEndColor="DarkGreen" />
+      </States>
+      <Location X="2.49999976" Y="77.99999" />
+      <Size Width="12" Height="6" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.Speed" Name="Second" FillColor="Black" FillGradientEndColor="Black">
+      <States>
+        <State Name="On" StartValue="50" EndValue="99" FillColor="LawnGreen" FillGradientEndColor="DarkGreen" />
+      </States>
+      <Location X="12.5" Y="77.99999" />
+      <Size Width="12" Height="6" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.Speed" Name="Third" FillColor="Black" FillGradientEndColor="Black">
+      <States>
+        <State Name="On" StartValue="35" EndValue="49" FillColor="LawnGreen" FillGradientEndColor="DarkGreen" />
+      </States>
+      <Location X="22.5" Y="77.99999" />
+      <Size Width="12" Height="6" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.Speed" Name="Fourth" FillColor="Black" FillGradientEndColor="Black">
+      <States>
+        <State Name="On" StartValue="29" EndValue="34" FillColor="LawnGreen" FillGradientEndColor="DarkGreen" />
+      </States>
+      <Location X="32.5" Y="77.99999" />
+      <Size Width="12" Height="6" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.Speed" Name="Fifth" FillColor="Black" FillGradientEndColor="Black">
+      <States>
+        <State Name="On" StartValue="0" EndValue="28" FillColor="LawnGreen" FillGradientEndColor="DarkGreen" />
+      </States>
+      <Location X="42.5" Y="77.99999" />
+      <Size Width="12" Height="6" />
+    </StateIndicator>
+    <StateIndicator Parent="CircularGauges.Speed" Name="Knock Indicator">
+      <States>
+        <State Name="State1" StartValue="0" EndValue="3" FillColor="Chartreuse" FillGradientEndColor="LimeGreen" />
+        <State Name="State2" StartValue="4" EndValue="8" FillColor="Yellow" FillGradientEndColor="Gold" />
+        <State Name="State3" StartValue="9" EndValue="50" FillColor="Coral" FillGradientEndColor="Red" />
+      </States>
+      <Location X="43.8606453" Y="19.1147423" />
+      <Size Width="12" Height="14" />
+    </StateIndicator>
+  </StateIndicators>
+  <Labels>
+    <GaugeLabel Parent="CircularGauges.Speed" Name="Unis" BackColor="" BackGradientEndColor="" Text="km/h" TextColor="White" TextAlignment="MiddleLeft">
+      <Location X="8.222214" Y="53.1111031" />
+      <Size Width="20" Height="20" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Speed" Name="1" BackColor="" BackGradientEndColor="" Text="1" TextColor="White">
+      <Location X="5" Y="85" />
+      <Size Width="10" Height="10" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Speed" Name="2" BackColor="" BackGradientEndColor="" Text="2" TextColor="White">
+      <Location X="15" Y="85" />
+      <Size Width="10" Height="10" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Speed" Name="3" BackColor="" BackGradientEndColor="" Text="3" TextColor="White">
+      <Location X="25" Y="85" />
+      <Size Width="10" Height="10" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Speed" Name="4" BackColor="" BackGradientEndColor="" Text="4" TextColor="White">
+      <Location X="35" Y="85" />
+      <Size Width="10" Height="10" />
+    </GaugeLabel>
+    <GaugeLabel Parent="CircularGauges.Speed" Name="5" BackColor="" BackGradientEndColor="" Text="5" TextColor="White">
+      <Location X="45" Y="85" />
+      <Size Width="10" Height="10" />
+    </GaugeLabel>
+    <GaugeLabel Parent="StateIndicators.Knock Indicator" Name="Knock" BackColor="" BackGradientEndColor="" Text="Knock" TextColor="White">
+      <Location X="-21.65541" Y="97.52924" />
+      <Size Width="148" Height="70" />
+    </GaugeLabel>
+  </Labels>
+  <BackFrame Style="None" Shape="Rectangular" FrameWidth="0" FrameColor="DarkGray" FrameGradientType="None" BackColor="Black" BackGradientEndColor="80, 80, 80" />
+</GaugeCore>

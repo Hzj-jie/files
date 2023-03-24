@@ -1,0 +1,288 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <Top>406</Top>
+    <Left>803</Left>
+    <Width>467</Width>
+    <Height>332</Height>
+    <GaugeTemplateFileName>Graphite</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections"&gt;
+&lt;_items href="#ref-2"/&gt;
+&lt;_size&gt;1&lt;/_size&gt;
+&lt;_version&gt;3&lt;/_version&gt;
+&lt;/a1:ArrayList&gt;
+&lt;SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[16]"&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-4"&gt;Default&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-5"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-6"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey id="ref-7"&gt;KnockSum&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;/SOAP-ENC:Array&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</DataRequestItemsSerialized>
+    <Reserved1 />
+    <Reserved2 />
+    <Reserved3 />
+    <Reserved4 />
+    <Reserved5 />
+  </Table1>
+  <Table1>
+    <Top>10</Top>
+    <Left>5</Left>
+    <Width>834</Width>
+    <Height>425</Height>
+    <GaugeTemplateFileName>DashBoard</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections"&gt;
+&lt;_items href="#ref-2"/&gt;
+&lt;_size&gt;12&lt;/_size&gt;
+&lt;_version&gt;394&lt;/_version&gt;
+&lt;/a1:ArrayList&gt;
+&lt;SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[16]"&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;LinearGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-4"&gt;ThrottlePosition&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-5"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-6"&gt;Throttle Position&lt;/DataItem&gt;
+&lt;DataKey id="ref-7"&gt;TPS&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;100&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-8"&gt;Speedometer&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-9"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-10"&gt;Speed&lt;/DataItem&gt;
+&lt;DataKey id="ref-11"&gt;Speed&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;280&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-12"&gt;RPM&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-13"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-14"&gt;Engine Speed&lt;/DataItem&gt;
+&lt;DataKey id="ref-15"&gt;RPM&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;8&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-16"&gt;GasTank&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-17"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-18"&gt;Air Temperature&lt;/DataItem&gt;
+&lt;DataKey id="ref-19"&gt;AirTemp&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;255&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-20"&gt;TempReading&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-21"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-22"&gt;Coolant Temp&lt;/DataItem&gt;
+&lt;DataKey id="ref-23"&gt;CoolantTemp&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;300&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;StateIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-24"&gt;5&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-24"/&gt;
+&lt;DataItem id="ref-25"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey id="ref-26"&gt;KnockSum&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;StateIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-27"&gt;4&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-27"/&gt;
+&lt;DataItem id="ref-28"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey href="#ref-26"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;StateIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-29"&gt;3&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-29"/&gt;
+&lt;DataItem id="ref-30"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey href="#ref-26"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;StateIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-31"&gt;2&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-31"/&gt;
+&lt;DataItem id="ref-32"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey href="#ref-26"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;StateIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-33"&gt;1&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-33"/&gt;
+&lt;DataItem id="ref-34"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey href="#ref-26"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-35"&gt;Odometer&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-35"/&gt;
+&lt;DataItem id="ref-36"&gt;Throttle Position&lt;/DataItem&gt;
+&lt;DataKey href="#ref-7"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;100&lt;/Max&gt;
+&lt;/item&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-37"&gt;Speedometer&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-37"/&gt;
+&lt;DataItem id="ref-38"&gt;Throttle Position&lt;/DataItem&gt;
+&lt;DataKey href="#ref-7"/&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;100&lt;/Max&gt;
+&lt;/item&gt;
+&lt;/SOAP-ENC:Array&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</DataRequestItemsSerialized>
+    <Reserved1 />
+    <Reserved2 />
+    <Reserved3 />
+    <Reserved4 />
+    <Reserved5 />
+  </Table1>
+  <Table1>
+    <Top>1</Top>
+    <Left>804</Left>
+    <Width>211</Width>
+    <Height>204</Height>
+    <GaugeTemplateFileName>NiceRed</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections"&gt;
+&lt;_items href="#ref-2"/&gt;
+&lt;_size&gt;1&lt;/_size&gt;
+&lt;_version&gt;9&lt;/_version&gt;
+&lt;/a1:ArrayList&gt;
+&lt;SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[16]"&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-4"&gt;Default&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-5"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-6"&gt;Load Max200&lt;/DataItem&gt;
+&lt;DataKey id="ref-7"&gt;Load&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;300&lt;/Max&gt;
+&lt;/item&gt;
+&lt;/SOAP-ENC:Array&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</DataRequestItemsSerialized>
+    <Reserved1 />
+    <Reserved2 />
+    <Reserved3 />
+    <Reserved4 />
+    <Reserved5 />
+  </Table1>
+  <Table1>
+    <Top>204</Top>
+    <Left>811</Left>
+    <Width>211</Width>
+    <Height>204</Height>
+    <GaugeTemplateFileName>NiceRed</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections"&gt;
+&lt;_items href="#ref-2"/&gt;
+&lt;_size&gt;1&lt;/_size&gt;
+&lt;_version&gt;5&lt;/_version&gt;
+&lt;/a1:ArrayList&gt;
+&lt;SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[16]"&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-4"&gt;Default&lt;/GaugeName&gt;
+&lt;GaugePointerName id="ref-5"&gt;Default&lt;/GaugePointerName&gt;
+&lt;DataItem id="ref-6"&gt;Throttle Position&lt;/DataItem&gt;
+&lt;DataKey id="ref-7"&gt;TPS&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;100&lt;/Max&gt;
+&lt;/item&gt;
+&lt;/SOAP-ENC:Array&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</DataRequestItemsSerialized>
+    <Reserved1 />
+    <Reserved2 />
+    <Reserved3 />
+    <Reserved4 />
+    <Reserved5 />
+  </Table1>
+  <Table1>
+    <Top>-1</Top>
+    <Left>1014</Left>
+    <Width>662</Width>
+    <Height>666</Height>
+    <GaugeTemplateFileName>KnockIndicator2</GaugeTemplateFileName>
+    <GaugeRefreshRate>0</GaugeRefreshRate>
+    <DataRequestItemsSerialized>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+&lt;SOAP-ENV:Body&gt;
+&lt;a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections"&gt;
+&lt;_items href="#ref-2"/&gt;
+&lt;_size&gt;1&lt;/_size&gt;
+&lt;_version&gt;1&lt;/_version&gt;
+&lt;/a1:ArrayList&gt;
+&lt;SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[16]"&gt;
+&lt;item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D1.24.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull"&gt;
+&lt;GaugeType&gt;StateIndicator&lt;/GaugeType&gt;
+&lt;TemplateName xsi:null="1"/&gt;
+&lt;GaugeName id="ref-4"&gt;Color Indicator&lt;/GaugeName&gt;
+&lt;GaugePointerName href="#ref-4"/&gt;
+&lt;DataItem id="ref-5"&gt;Knock Sum&lt;/DataItem&gt;
+&lt;DataKey id="ref-6"&gt;KnockSum&lt;/DataKey&gt;
+&lt;Min&gt;0&lt;/Min&gt;
+&lt;Max&gt;50&lt;/Max&gt;
+&lt;/item&gt;
+&lt;/SOAP-ENC:Array&gt;
+&lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;
+</DataRequestItemsSerialized>
+    <Reserved1 />
+    <Reserved2 />
+    <Reserved3 />
+    <Reserved4 />
+    <Reserved5 />
+  </Table1>
+</NewDataSet>

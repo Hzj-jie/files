@@ -1,0 +1,20 @@
+<GaugeCore BackColor="White" Width="376" Height="248" BuildNumber="1.5.1.5" ControlType="DundasWinGauge">
+  <CircularGauges>
+    <CircularGauge Name="Default">
+      <Scales>
+        <CircularScale Name="Default" BorderColor="White" BorderWidth="1" FillColor="Black" ShadowOffset="0">
+          <MajorTickMark Shape="Rectangle" BorderWidth="0" FillColor="Black" />
+          <MinorTickMark BorderWidth="0" FillColor="Black" />
+        </CircularScale>
+      </Scales>
+      <Pointers>
+        <CircularPointer NeedleStyle="NeedleStyle10" CapWidth="24" FillGradientType="None" CapFillColor="Silver" CapFillGradientType="None" Name="Default" ShadowOffset="0" BorderWidth="0" FillColor="Black" />
+      </Pointers>
+      <PivotPoint X="50" Y="50" />
+      <Location X="0" Y="0" />
+      <Size Width="100" Height="100" />
+      <BackFrame Style="Edged" Shape="Circular" FrameWidth="2" FrameGradientType="None" FrameGradientEndColor="DimGray" BorderColor="White" BackColor="White" BackGradientType="None" BackGradientEndColor="26, 59, 105" />
+    </CircularGauge>
+  </CircularGauges>
+  <BackFrame Style="None" Shape="Rectangular" FrameWidth="1" FrameGradientType="None" FrameGradientEndColor="DimGray" BackColor="White" BackGradientType="None" BackGradientEndColor="26, 59, 105" />
+</GaugeCore>
