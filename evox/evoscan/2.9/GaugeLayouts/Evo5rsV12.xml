@@ -74,7 +74,7 @@
         &lt;DataItem id=&quot;ref-24&quot;&gt;Manifold Temperature&lt;/DataItem&gt;
         &lt;DataKey id=&quot;ref-25&quot;&gt;MAT&lt;/DataKey&gt;
         &lt;Min&gt;0&lt;/Min&gt;
-        &lt;Max&gt;60&lt;/Max&gt;
+        &lt;Max&gt;100&lt;/Max&gt;
       &lt;/item&gt;
       &lt;item xsi:type=&quot;a3:Globals+GaugeDataItem&quot; xmlns:a3=&quot;http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull&quot;&gt;
         &lt;GaugeType&gt;CircularGauge&lt;/GaugeType&gt;
