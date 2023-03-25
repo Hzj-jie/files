@@ -12,7 +12,7 @@
         <GaugeName id="ref-4">Fuel Trims</GaugeName>
         <GaugePointerName id="ref-5">Low</GaugePointerName>
         <DataItem id="ref-6">Fuel Trim Low (LTFT)</DataItem>
-        <DataKey id="ref-7">FuelTrim_High</DataKey>
+        <DataKey id="ref-7">FuelTrim_Low</DataKey>
         <Min>-15</Min>
         <Max>15</Max>
       </item>
@@ -32,19 +32,19 @@
         <GaugeName href="#ref-4"/>
         <GaugePointerName id="ref-11">Hi</GaugePointerName>
         <DataItem id="ref-12">Fuel Trim High (LTFT)</DataItem>
-        <DataKey id="ref-13">FuelTrim_Low</DataKey>
+        <DataKey id="ref-13">FuelTrim_High</DataKey>
         <Min>-15</Min>
         <Max>15</Max>
       </item>
       <item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
         <GaugeType>CircularGauge</GaugeType>
         <TemplateName xsi:null="1"/>
-        <GaugeName id="ref-14">coolant</GaugeName>
+        <GaugeName id="ref-14">boost</GaugeName>
         <GaugePointerName id="ref-15">Default</GaugePointerName>
-        <DataItem id="ref-16">Coolant Temp</DataItem>
-        <DataKey id="ref-17">CoolantTemp</DataKey>
-        <Min>0</Min>
-        <Max>120</Max>
+        <DataItem id="ref-16">Boost</DataItem>
+        <DataKey id="ref-17">Boost</DataKey>
+        <Min>-120</Min>
+        <Max>200</Max>
       </item>
       <item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
         <GaugeType>CircularGauge</GaugeType>
@@ -59,10 +59,10 @@
       <item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
         <GaugeType>CircularGauge</GaugeType>
         <TemplateName xsi:null="1"/>
-        <GaugeName id="ref-22">Air temp</GaugeName>
+        <GaugeName id="ref-22">Manifold temp</GaugeName>
         <GaugePointerName id="ref-23">Default</GaugePointerName>
-        <DataItem id="ref-24">Air Temperature</DataItem>
-        <DataKey id="ref-25">AirTemp</DataKey>
+        <DataItem id="ref-24">Manifold Temperature</DataItem>
+        <DataKey id="ref-25">MAT</DataKey>
         <Min>0</Min>
         <Max>60</Max>
       </item>
@@ -159,7 +159,7 @@
       <item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
         <GaugeType>NumericIndicator</GaugeType>
         <TemplateName xsi:null="1"/>
-        <GaugeName id="ref-44">Air Temp</GaugeName>
+        <GaugeName id="ref-44">Manifold Temp</GaugeName>
         <GaugePointerName href="#ref-44"/>
         <DataItem href="#ref-24"/>
         <DataKey href="#ref-25"/>
