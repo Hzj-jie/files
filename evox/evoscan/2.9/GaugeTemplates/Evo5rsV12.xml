@@ -41,7 +41,7 @@
     </CircularGauge>
     <CircularGauge Name="Manifold temp">
       <Scales>
-        <CircularScale Radius="47" StartAngle="90" SweepAngle="230" Name="Default" Maximum="100" Width="0" BorderColor="Aquamarine" FillColor="Aquamarine" ShadowOffset="0">
+        <CircularScale Radius="47" StartAngle="90" SweepAngle="230" Name="Default" Minimum="-20" Maximum="100" Width="0" BorderColor="Aquamarine" FillColor="Aquamarine" ShadowOffset="0">
           <LabelStyle RotateLabels="False" TextColor="Aquamarine" />
           <MajorTickMark Shape="Rectangle" Length="12" Width="4" BorderWidth="0" FillColor="Aquamarine" />
           <MinorTickMark Length="12" BorderColor="Aquamarine" BorderWidth="0" FillColor="Aquamarine" />

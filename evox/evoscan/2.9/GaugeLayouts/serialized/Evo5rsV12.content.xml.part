@@ -63,7 +63,7 @@
         <GaugePointerName id="ref-23">Default</GaugePointerName>
         <DataItem id="ref-24">Manifold Temperature</DataItem>
         <DataKey id="ref-25">MAT</DataKey>
-        <Min>0</Min>
+        <Min>-20</Min>
         <Max>100</Max>
       </item>
       <item xsi:type="a3:Globals+GaugeDataItem" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
