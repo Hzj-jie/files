@@ -211,7 +211,7 @@
       <Location X="7.99999571" Y="76.99998" />
       <Size Width="40" Height="12" />
     </GaugeLabel>
-    <GaugeLabel Parent="CircularGauges.Manifold temp" Name="Manifold Temp" BackColor="" TextColor="Aquamarine" BackGradientEndColor="" Text="MAF">
+    <GaugeLabel Parent="CircularGauges.Manifold temp" Name="Manifold Temp" BackColor="" TextColor="Aquamarine" BackGradientEndColor="" Text="MAT">
       <Location X="5.999996" Y="79.9999847" />
       <Size Width="40" Height="15" />
     </GaugeLabel>
