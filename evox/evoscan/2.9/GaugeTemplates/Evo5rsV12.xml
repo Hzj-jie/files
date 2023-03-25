@@ -161,7 +161,7 @@
     </NumericIndicator>
   </NumericIndicators>
   <StateIndicators>
-    <StateIndicator Parent="CircularGauges.boost" Name="Battery " IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Battery Voltage Low" ResizeMode="None">
+    <StateIndicator Parent="CircularGauges.boost" Name="Battery" IndicatorStyle="Text" Font="Microsoft Sans Serif, 15.75pt" FillColor="Transparent" Text="Battery Voltage Low" ResizeMode="None">
       <States>
         <State Name="Low" StartValue="0" EndValue="10" Font="Microsoft Sans Serif, 15.75pt" Text="Battery Voltage Low" />
         <State Name="High" StartValue="16" EndValue="20" Font="Microsoft Sans Serif, 15.75pt" FillColor="Yellow" Text="Battery Voltage High" />
@@ -211,7 +211,7 @@
       <Location X="7.99999571" Y="76.99998" />
       <Size Width="40" Height="12" />
     </GaugeLabel>
-    <GaugeLabel Parent="CircularGauges.Manifold temp" Name="Manifold Temp" BackColor="" TextColor="Aquamarine" BackGradientEndColor="" Text="Manifold Temp">
+    <GaugeLabel Parent="CircularGauges.Manifold temp" Name="Manifold Temp" BackColor="" TextColor="Aquamarine" BackGradientEndColor="" Text="MAF">
       <Location X="5.999996" Y="79.9999847" />
       <Size Width="40" Height="15" />
     </GaugeLabel>
