@@ -21,8 +21,8 @@
         &lt;TemplateName xsi:null=&quot;1&quot;/&gt;
         &lt;GaugeName id=&quot;ref-4&quot;&gt;Fuel Trims&lt;/GaugeName&gt;
         &lt;GaugePointerName id=&quot;ref-5&quot;&gt;Low&lt;/GaugePointerName&gt;
-        &lt;DataItem id=&quot;ref-6&quot;&gt;Fuel Trim Low (LTFT)&lt;/DataItem&gt;
-        &lt;DataKey id=&quot;ref-7&quot;&gt;FuelTrim_Low&lt;/DataKey&gt;
+        &lt;DataItem id=&quot;ref-6&quot;&gt;Fuel Trim Idle&lt;/DataItem&gt;
+        &lt;DataKey id=&quot;ref-7&quot;&gt;IdleLTFT&lt;/DataKey&gt;
         &lt;Min&gt;-15&lt;/Min&gt;
         &lt;Max&gt;15&lt;/Max&gt;
       &lt;/item&gt;
@@ -31,8 +31,8 @@
         &lt;TemplateName xsi:null=&quot;1&quot;/&gt;
         &lt;GaugeName href=&quot;#ref-4&quot;/&gt;
         &lt;GaugePointerName id=&quot;ref-8&quot;&gt;Mid&lt;/GaugePointerName&gt;
-        &lt;DataItem id=&quot;ref-9&quot;&gt;Fuel Trim Mid (LTFT)&lt;/DataItem&gt;
-        &lt;DataKey id=&quot;ref-10&quot;&gt;FuelTrim_Mid&lt;/DataKey&gt;
+        &lt;DataItem id=&quot;ref-9&quot;&gt;Fuel Trim Cruise&lt;/DataItem&gt;
+        &lt;DataKey id=&quot;ref-10&quot;&gt;CruiseLTFT&lt;/DataKey&gt;
         &lt;Min&gt;-15&lt;/Min&gt;
         &lt;Max&gt;15&lt;/Max&gt;
       &lt;/item&gt;
@@ -41,8 +41,8 @@
         &lt;TemplateName xsi:null=&quot;1&quot;/&gt;
         &lt;GaugeName href=&quot;#ref-4&quot;/&gt;
         &lt;GaugePointerName id=&quot;ref-11&quot;&gt;Hi&lt;/GaugePointerName&gt;
-        &lt;DataItem id=&quot;ref-12&quot;&gt;Fuel Trim High (LTFT)&lt;/DataItem&gt;
-        &lt;DataKey id=&quot;ref-13&quot;&gt;FuelTrim_High&lt;/DataKey&gt;
+        &lt;DataItem id=&quot;ref-12&quot;&gt;Fuel Trim Current&lt;/DataItem&gt;
+        &lt;DataKey id=&quot;ref-13&quot;&gt;CurrentLTFT&lt;/DataKey&gt;
         &lt;Min&gt;-15&lt;/Min&gt;
         &lt;Max&gt;15&lt;/Max&gt;
       &lt;/item&gt;
@@ -81,8 +81,8 @@
         &lt;TemplateName xsi:null=&quot;1&quot;/&gt;
         &lt;GaugeName id=&quot;ref-26&quot;&gt;AFR&lt;/GaugeName&gt;
         &lt;GaugePointerName id=&quot;ref-27&quot;&gt;Default&lt;/GaugePointerName&gt;
-        &lt;DataItem id=&quot;ref-28&quot;&gt;External Wideband A/F Ratio&lt;/DataItem&gt;
-        &lt;DataKey id=&quot;ref-29&quot;&gt;WideBandAF&lt;/DataKey&gt;
+        &lt;DataItem id=&quot;ref-28&quot;&gt;Air Fuel Ratio&lt;/DataItem&gt;
+        &lt;DataKey id=&quot;ref-29&quot;&gt;AFRMAP&lt;/DataKey&gt;
         &lt;Min&gt;7&lt;/Min&gt;
         &lt;Max&gt;21&lt;/Max&gt;
       &lt;/item&gt;
@@ -241,8 +241,8 @@
         &lt;TemplateName xsi:null=&quot;1&quot;/&gt;
         &lt;GaugeName id=&quot;ref-53&quot;&gt;Load&lt;/GaugeName&gt;
         &lt;GaugePointerName href=&quot;#ref-53&quot;/&gt;
-        &lt;DataItem id=&quot;ref-54&quot;&gt;Load MUT 2Byte Mod&lt;/DataItem&gt;
-        &lt;DataKey id=&quot;ref-55&quot;&gt;LoadMUT2Byte&lt;/DataKey&gt;
+        &lt;DataItem id=&quot;ref-54&quot;&gt;Load&lt;/DataItem&gt;
+        &lt;DataKey id=&quot;ref-55&quot;&gt;Load&lt;/DataKey&gt;
         &lt;Min&gt;0&lt;/Min&gt;
         &lt;Max&gt;500&lt;/Max&gt;
       &lt;/item&gt;
@@ -252,7 +252,7 @@
         &lt;GaugeName id=&quot;ref-56&quot;&gt;IDC&lt;/GaugeName&gt;
         &lt;GaugePointerName href=&quot;#ref-56&quot;/&gt;
         &lt;DataItem id=&quot;ref-57&quot;&gt;Injector Duty %&lt;/DataItem&gt;
-        &lt;DataKey id=&quot;ref-58&quot;&gt;InjDutyCycle&lt;/DataKey&gt;
+        &lt;DataKey id=&quot;ref-58&quot;&gt;IDC&lt;/DataKey&gt;
         &lt;Min&gt;0&lt;/Min&gt;
         &lt;Max&gt;160&lt;/Max&gt;
       &lt;/item&gt;

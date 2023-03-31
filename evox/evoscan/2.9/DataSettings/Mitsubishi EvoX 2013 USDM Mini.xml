@@ -20,6 +20,7 @@
         <DataListItem DataLog="Y" Color="" Display="LTFT idle" LogReference="IdleLTFT" RequestID="23804573" Eval="(0.1953125*x)-25" Unit="%" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
         <DataListItem DataLog="Y" Color="" Display="LTFT Cruise" LogReference="CruiseLTFT" RequestID="23804575" Eval="(0.1953125*x)-25" Unit="%" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
         <DataListItem DataLog="Y" Color="" Display="LTFT In Use" LogReference="CurrentLTFT" RequestID="238088FD" Eval="(0.1953125*x)-25" Unit="%" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="0" GaugeMax="255" ChartMin="0" ChartMax="255" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
+        <DataListItem DataLog="Y" Color="" Display="TimingAdv" LogReference="TimingAdv" RequestID="23808A5B" Eval="x-20" Unit="deg" MetricEval="" MetricUnit="" ResponseBytes="1" GaugeMin="-10" GaugeMax="50" ChartMin="-10" ChartMax="50" ScalingFactor="1" Notes="" Priority="1" Visible="False" />
       </Mode2>
     </ecu>
   </vehicle>

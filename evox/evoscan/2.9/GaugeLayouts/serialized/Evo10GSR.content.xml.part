@@ -11,8 +11,8 @@
         <TemplateName xsi:null="1"/>
         <GaugeName id="ref-4">Fuel Trims</GaugeName>
         <GaugePointerName id="ref-5">Low</GaugePointerName>
-        <DataItem id="ref-6">Fuel Trim Low (LTFT)</DataItem>
-        <DataKey id="ref-7">FuelTrim_Low</DataKey>
+        <DataItem id="ref-6">Fuel Trim Idle</DataItem>
+        <DataKey id="ref-7">IdleLTFT</DataKey>
         <Min>-15</Min>
         <Max>15</Max>
       </item>
@@ -21,8 +21,8 @@
         <TemplateName xsi:null="1"/>
         <GaugeName href="#ref-4"/>
         <GaugePointerName id="ref-8">Mid</GaugePointerName>
-        <DataItem id="ref-9">Fuel Trim Mid (LTFT)</DataItem>
-        <DataKey id="ref-10">FuelTrim_Mid</DataKey>
+        <DataItem id="ref-9">Fuel Trim Cruise</DataItem>
+        <DataKey id="ref-10">CruiseLTFT</DataKey>
         <Min>-15</Min>
         <Max>15</Max>
       </item>
@@ -31,8 +31,8 @@
         <TemplateName xsi:null="1"/>
         <GaugeName href="#ref-4"/>
         <GaugePointerName id="ref-11">Hi</GaugePointerName>
-        <DataItem id="ref-12">Fuel Trim High (LTFT)</DataItem>
-        <DataKey id="ref-13">FuelTrim_High</DataKey>
+        <DataItem id="ref-12">Fuel Trim Current</DataItem>
+        <DataKey id="ref-13">CurrentLTFT</DataKey>
         <Min>-15</Min>
         <Max>15</Max>
       </item>
@@ -71,8 +71,8 @@
         <TemplateName xsi:null="1"/>
         <GaugeName id="ref-26">AFR</GaugeName>
         <GaugePointerName id="ref-27">Default</GaugePointerName>
-        <DataItem id="ref-28">External Wideband A/F Ratio</DataItem>
-        <DataKey id="ref-29">WideBandAF</DataKey>
+        <DataItem id="ref-28">Air Fuel Ratio</DataItem>
+        <DataKey id="ref-29">AFRMAP</DataKey>
         <Min>7</Min>
         <Max>21</Max>
       </item>
@@ -231,8 +231,8 @@
         <TemplateName xsi:null="1"/>
         <GaugeName id="ref-53">Load</GaugeName>
         <GaugePointerName href="#ref-53"/>
-        <DataItem id="ref-54">Load MUT 2Byte Mod</DataItem>
-        <DataKey id="ref-55">LoadMUT2Byte</DataKey>
+        <DataItem id="ref-54">Load</DataItem>
+        <DataKey id="ref-55">Load</DataKey>
         <Min>0</Min>
         <Max>500</Max>
       </item>
@@ -242,7 +242,7 @@
         <GaugeName id="ref-56">IDC</GaugeName>
         <GaugePointerName href="#ref-56"/>
         <DataItem id="ref-57">Injector Duty %</DataItem>
-        <DataKey id="ref-58">InjDutyCycle</DataKey>
+        <DataKey id="ref-58">IDC</DataKey>
         <Min>0</Min>
         <Max>160</Max>
       </item>
