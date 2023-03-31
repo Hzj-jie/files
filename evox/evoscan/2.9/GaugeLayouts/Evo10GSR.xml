@@ -5,7 +5,7 @@
     <Left>0</Left>
     <Width>1003</Width>
     <Height>601</Height>
-    <GaugeTemplateFileName>Evo5rsV12</GaugeTemplateFileName>
+    <GaugeTemplateFileName>Evo10GSR</GaugeTemplateFileName>
     <GaugeRefreshRate>0</GaugeRefreshRate>
     <DataRequestItemsSerialized>
 &lt;SOAP-ENV:Envelope xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:SOAP-ENC=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:clr=&quot;http://schemas.microsoft.com/soap/encoding/clr/1.0&quot; SOAP-ENV:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;
