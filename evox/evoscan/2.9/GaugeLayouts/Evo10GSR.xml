@@ -149,7 +149,7 @@
       &lt;item xsi:type=&quot;a3:Globals+GaugeDataItem&quot; xmlns:a3=&quot;http://schemas.microsoft.com/clr/nsassem/EvoScan/EvoScan%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull&quot;&gt;
         &lt;GaugeType&gt;NumericIndicator&lt;/GaugeType&gt;
         &lt;TemplateName xsi:null=&quot;1&quot;/&gt;
-        &lt;GaugeName id=&quot;ref-42&quot;&gt;Coolant&lt;/GaugeName&gt;
+        &lt;GaugeName id=&quot;ref-42&quot;&gt;Boost&lt;/GaugeName&gt;
         &lt;GaugePointerName href=&quot;#ref-42&quot;/&gt;
         &lt;DataItem href=&quot;#ref-16&quot;/&gt;
         &lt;DataKey href=&quot;#ref-17&quot;/&gt;
