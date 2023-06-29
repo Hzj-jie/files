@@ -124,7 +124,7 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 alias ssh-password='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
 
 export PATH=$PATH:~/tfs-client/:~/chromium/depot_tools:~/git/files/chromium:
-export PATH=$PATH:~/git5/experimental/google3/experimental/users/zijiehe/bash/:
+export PATH=$PATH:/google/src/head/depot/google3/experimental/users/zijiehe/bash/:
 export PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools/:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/:
 export PATH=$PATH:~/git/files/bash/:
 
