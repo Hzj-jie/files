@@ -142,3 +142,5 @@ if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/path.bash.inc
 if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.bash.inc'; fi
 
 export SKIP_GCE_AUTH_FOR_GIT=1
+
+export BOTO_CONFIG=$(gcloud info --format "value(config.paths.global_config_dir)")/legacy_credentials/$(gcloud config list --format="value(core.account)")/.boto
