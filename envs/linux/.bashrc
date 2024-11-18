@@ -127,7 +127,7 @@ if [ -d /google/src/head/ ]; then
   export PATH=$PATH:/google/src/head/depot/google3/experimental/users/zijiehe/bash/:
 fi
 if [ -d ~/chromium/depot_tools ]; then
-  export PATH=~/chromium/depot_tools
+  export PATH=$PATH:~/chromium/depot_tools
   export PATH=$PATH:.jiri_root/bin/:third_party/fuchsia-sdk/sdk/tools/x64/:third_party/fuchsia/sdk/linux/tools/x64
 fi
 if [ -d ~/git/android-ndk ]; then
