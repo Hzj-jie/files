@@ -123,11 +123,18 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 alias ssh-password='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
 
-export PATH=$PATH:/google/src/head/depot/google3/experimental/users/zijiehe/bash/:
-export PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools/:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/:
+if [ -d /google/src/head/ ]; then
+  export PATH=$PATH:/google/src/head/depot/google3/experimental/users/zijiehe/bash/:
+fi
+if [ -d ~/chromium/depot_tools ]; then
+  export PATH=~/chromium/depot_tools
+  export PATH=$PATH:.jiri_root/bin/:third_party/fuchsia-sdk/sdk/tools/x64/:third_party/fuchsia/sdk/linux/tools/x64
+fi
+if [ -d ~/git/android-ndk ]; then
+  export PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools/:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/:
+fi
 export PATH=$PATH:~/git/files/bash/:
 
-export PATH=$PATH:.jiri_root/bin/:third_party/fuchsia-sdk/sdk/tools/x64/:third_party/fuchsia/sdk/linux/tools/x64
 if [ -f ~/fuchsia/scripts/fx-env.sh ]; then source ~/fuchsia/scripts/fx-env.sh; fi
 
 # Remove empty path, e.g. "::"
