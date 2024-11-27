@@ -149,7 +149,7 @@ if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.ba
 
 export SKIP_GCE_AUTH_FOR_GIT=1
 
-if which gcloud > /dev/null; then
+if which gcloud >/dev/null 2>&1; then
   export BOTO_CONFIG=$(gcloud info --format "value(config.paths.global_config_dir)")/legacy_credentials/$(gcloud config list --format="value(core.account)")/.boto
 fi
 
