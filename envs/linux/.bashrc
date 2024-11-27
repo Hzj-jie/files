@@ -149,7 +149,9 @@ if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.ba
 
 export SKIP_GCE_AUTH_FOR_GIT=1
 
-export BOTO_CONFIG=$(gcloud info --format "value(config.paths.global_config_dir)")/legacy_credentials/$(gcloud config list --format="value(core.account)")/.boto
+if which gcloud > /dev/null; then
+  export BOTO_CONFIG=$(gcloud info --format "value(config.paths.global_config_dir)")/legacy_credentials/$(gcloud config list --format="value(core.account)")/.boto
+fi
 
 if [ -d ~/envs/init ]; then
   for file in ~/envs/init/*; do
