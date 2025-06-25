@@ -160,5 +160,11 @@ if [ -d ~/envs/init ]; then
   done
 fi
 
+if [ -d ~/init ]; then
+  for file in ~/init/*; do
+    . $file
+  done
+fi
+
 # Set the Hi status to be displayed as part of the prompt. #!>>HI<<!#
 PS1="\$(type __hi_prompt_large &> /dev/null && __hi_prompt_large)${PS1}" #!>>HI<<!#
