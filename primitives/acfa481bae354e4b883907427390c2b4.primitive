@@ -1,0 +1,88 @@
+jump rel6
+push
+cpc rel0 a00000000
+int rel0 rel2 rel0
+pop
+rest
+jump rel6
+push
+cpc rel0 a07000000
+int rel0 rel1 rel0
+pop
+rest
+jump rel72
+push
+cpc rel0 a01000000
+push
+alloc rel0 rel1
+push
+alloc rel0 rel2
+push
+cpc rel0 a00000000
+push
+cpc rel0 a616263
+push
+add rel0 rel4 rel2
+cp hrel0 rel1
+push
+cpc rel0 a00000000
+push
+push
+add rel0 rel7 rel2
+push
+add rel0 rel7 rel3
+push
+cp rel0 hrel2
+push
+cp rel0 hrel2
+stst
+jump abs1
+pop
+pop
+pop
+pop
+pop
+push
+cpc rel0 a01000000
+push
+alloc rel0 rel1
+push
+cpc rel0 a00000000
+push
+cpc rel0 a64000000
+push
+add rel0 rel3 rel2
+cp hrel0 rel1
+push
+cpc rel0 a00000000
+push
+push
+add rel0 rel6 rel2
+push
+cp rel0 hrel1
+stst
+jump abs7
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+dealloc rel0
+pop
+pop
+pop
+pop
+pop
+pop
+dealloc rel0
+pop
+dealloc rel0
+pop
+pop
+rest
+push
+stst
+jump abs13
+pop

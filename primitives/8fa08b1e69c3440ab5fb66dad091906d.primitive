@@ -1,0 +1,25 @@
+push
+cpc abs0 a01000000
+push
+push
+cpc abs2 a02000000
+int abs2 abs1 abs2
+cpc abs1 a00000000
+int abs1 abs2 abs1
+cpc abs1 a01000000
+int abs1 abs2 abs1
+push
+sizeof abs3 abs2
+push
+push
+push
+cutl rel1 abs2 abs1 abs0
+cpc rel0 a00000000
+int rel0 rel1 rel0
+cpc rel0 a01000000
+int rel0 rel1 rel0
+add abs1 abs1 abs0
+less abs4 abs1 abs3
+pop
+pop
+jumpif rel-11 abs4

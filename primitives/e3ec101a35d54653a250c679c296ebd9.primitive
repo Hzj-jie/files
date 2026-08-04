@@ -1,0 +1,14 @@
+push
+jump rel9
+push
+cpc rel0 a68656C6C6F20776F726C64
+cpc abs0 a00000000
+int abs0 rel0 abs0
+cpc abs0 a01000000
+int abs0 rel0 abs0
+pop
+rest
+push
+stst
+jump abs2
+pop

@@ -1,0 +1,16 @@
+push
+push
+push
+push
+push
+cpc abs0 aFF
+cpc abs3 a01000000
+cpc abs4 a32000000
+jumpif rel2 abs0
+jump rel7
+add abs2 abs2 abs3
+add abs1 abs1 abs2
+less abs0 abs2 abs4
+jumpif rel2 abs0
+equal abs0 abs2 abs4
+jump rel-7

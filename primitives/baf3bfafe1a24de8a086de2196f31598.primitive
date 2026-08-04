@@ -1,0 +1,151 @@
+push
+cpc abs0 a00000000
+push
+cpc abs1 a01000000
+push
+cpc abs2 a04000000
+push
+cpc abs3 a08000000
+push
+cpc abs4 a01000000
+push
+cpc abs5 a01000000
+push
+cpc abs6 a10000000
+push
+cpc abs7 aFFFFFFFF
+push
+cpc abs8 a0000000001000000
+push
+push
+jump rel7
+push
+cutl rel0 rel1 abs0 abs3
+cp rel2 rel0
+rest
+pop
+rest
+push
+push
+cpc abs12 a00000080
+cp abs11 abs12
+push
+push
+cpc abs14 aFFFFFF7F
+cp abs13 abs14
+push
+push
+cpc abs16 aFFFFFFFFFFFFFF7F
+push
+push
+push
+cp rel0 abs16
+stst
+jump abs21
+mov abs17 rel1
+pop
+pop
+cp abs15 abs17
+jump rel4
+cpc abs10 a00000000
+int abs10 rel0 abs10
+rest
+jump rel9
+push
+push
+cp rel0 rel2
+stst
+jump abs49
+pop
+pop
+rest
+jump rel22
+push
+cpc rel0 a3A3A7479706530203A3A4E3A3A7072696E74285B5D29
+push
+push
+cp rel0 rel2
+stst
+jump abs53
+pop
+pop
+push
+cpc rel0 a0A
+push
+push
+cp rel0 rel2
+stst
+jump abs53
+pop
+pop
+pop
+pop
+rest
+jump rel22
+push
+cpc rel0 a3A3A7479706530203A3A4E3A3A66323A3A3A496E74656765723A3A3A537472696E67285B783A203A3A496E74656765722C20733A203A3A537472696E675D29
+push
+push
+cp rel0 rel2
+stst
+jump abs53
+pop
+pop
+push
+cpc rel0 a0A
+push
+push
+cp rel0 rel2
+stst
+jump abs53
+pop
+pop
+pop
+pop
+rest
+jump rel42
+push
+cpc rel0 a3A3A7479706530206D61696E285B5D29
+push
+push
+cp rel0 rel2
+stst
+jump abs53
+pop
+pop
+push
+cpc rel0 a0A
+push
+push
+cp rel0 rel2
+stst
+jump abs53
+pop
+pop
+push
+stst
+jump abs62
+pop
+push
+cpc rel0 a01000000
+push
+cpc rel0 a
+push
+push
+cp rel0 rel3
+push
+cp rel0 rel3
+stst
+jump abs84
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs106
+pop

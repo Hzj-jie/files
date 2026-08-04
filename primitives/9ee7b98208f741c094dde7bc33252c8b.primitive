@@ -1,0 +1,105 @@
+push
+jump rel4
+cpc abs0 a00000000
+int abs0 rel0 abs0
+rest
+jump rel7
+push
+cpc rel0 a44
+cp rel2 rel0
+rest
+pop
+rest
+jump rel7
+push
+cpc rel0 a45
+cp rel2 rel0
+rest
+pop
+rest
+jump rel15
+push
+push
+push
+mov rel0 rel3
+stst
+jump abs6
+mov rel3 rel0
+mov rel2 rel1
+pop
+pop
+cp rel3 rel0
+rest
+pop
+rest
+jump rel15
+push
+push
+push
+mov rel0 rel3
+stst
+jump abs13
+mov rel3 rel0
+mov rel2 rel1
+pop
+pop
+cp rel3 rel0
+rest
+pop
+rest
+jump rel52
+push
+push
+push
+push
+push
+mov rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs20
+mov rel5 rel1
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs2
+pop
+pop
+push
+push
+push
+push
+push
+mov rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs35
+mov rel5 rel1
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs2
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs50
+pop

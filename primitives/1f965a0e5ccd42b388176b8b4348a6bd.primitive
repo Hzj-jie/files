@@ -1,0 +1,26 @@
+jump rel22
+push
+push
+cpc rel0 a3A3A7479706530206D61696E285B5D29
+cp rel1 rel0
+push
+cpc rel0 a756E6B6E6F776E5F66696C65
+cp rel2 rel0
+push
+cpc rel0 a69203D205F5F53544154454D454E545F5F203B
+cp rel3 rel0
+push
+push
+cpc rel0 a71000000
+cp rel1 rel0
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs1
+pop

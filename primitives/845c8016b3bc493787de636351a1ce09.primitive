@@ -1,0 +1,38 @@
+jump rel14
+push
+cp rel0 rel1
+push
+push
+cpc rel0 a01000000
+cp rel1 rel0
+add rel3 rel3 rel1
+cp rel4 rel2
+rest
+pop
+pop
+pop
+rest
+jump rel20
+push
+push
+cpc rel0 a00000000
+cp rel1 rel0
+push
+push
+mov rel0 rel3
+stst
+jump abs1
+mov rel3 rel0
+pop
+pop
+push
+cpc rel0 a07000000
+int rel0 rel2 rel0
+pop
+pop
+pop
+rest
+push
+stst
+jump abs15
+pop

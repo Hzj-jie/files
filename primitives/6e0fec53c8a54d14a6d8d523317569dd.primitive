@@ -1,0 +1,37 @@
+push
+cpc abs0 a01000000
+jump rel5
+add rel0 rel0 abs0
+cp rel1 rel0
+rest
+rest
+jump rel5
+sub rel0 rel0 abs0
+cp rel1 rel0
+rest
+rest
+push
+push
+push
+cpc abs1 a0300000000000000
+push
+push
+cp rel0 abs0
+stst
+jmpr abs1
+mov abs2 rel1
+pop
+pop
+cpc abs3 a00000000
+int abs3 abs2 abs3
+cpc abs1 a0800000000000000
+push
+push
+cp rel0 abs2
+stst
+jmpr abs1
+mov abs2 rel1
+pop
+pop
+cpc abs3 a00000000
+int abs3 abs2 abs3

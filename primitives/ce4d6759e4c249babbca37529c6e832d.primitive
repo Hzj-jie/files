@@ -1,0 +1,416 @@
+push
+cpc abs0 a00000000
+push
+cpc abs1 a01000000
+push
+cpc abs2 a04000000
+push
+cpc abs3 a08000000
+push
+cpc abs4 a01000000
+push
+cpc abs5 a01000000
+push
+cpc abs6 a10000000
+push
+cpc abs7 aFFFFFFFF
+push
+cpc abs8 a0000000001000000
+push
+push
+jump rel4
+cp rel1 rel0
+rest
+rest
+jump rel7
+push
+cutl rel0 rel1 abs0 abs3
+cp rel2 rel0
+rest
+pop
+rest
+jump rel5
+app rel1 rel0
+cp rel2 rel1
+rest
+rest
+jump rel21
+push
+cpc rel0 a6F73692E736572766963652E696E7465727072657465722E7072696D69746976652E6C6F616465645F6D6574686F64732C206F73692E736572766963652E696E7465727072657465723A
+push
+push
+push
+cp rel0 rel3
+push
+cp rel0 rel5
+stst
+jump abs32
+mov rel3 rel2
+pop
+pop
+pop
+cp rel2 rel0
+cpc abs10 a04000000
+int abs10 rel2 abs10
+pop
+pop
+rest
+jump rel9
+push
+push
+cp rel0 rel2
+stst
+jump abs37
+pop
+pop
+rest
+push
+push
+cpc abs12 a00000080
+cp abs11 abs12
+push
+push
+cpc abs14 aFFFFFF7F
+cp abs13 abs14
+push
+push
+cpc abs16 aFFFFFFFFFFFFFF7F
+push
+push
+push
+cp rel0 abs16
+stst
+jump abs25
+mov abs17 rel1
+pop
+pop
+cp abs15 abs17
+jump rel8
+push
+cpc rel0 a05000000
+int rel0 rel1 rel0
+cp rel2 rel0
+rest
+pop
+rest
+jump rel24
+push
+cpc rel0 a6269675F756465635F746F5F737472
+push
+push
+cp rel0 rel2
+stst
+jump abs58
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs88
+mov rel2 rel1
+pop
+pop
+cp rel3 rel0
+rest
+pop
+pop
+rest
+jump rel4
+cpc abs10 a00000000
+int abs10 rel0 abs10
+rest
+jump rel9
+push
+push
+cp rel0 rel2
+stst
+jump abs120
+pop
+pop
+rest
+jump rel5
+fadd rel1 rel1 rel0
+cp rel2 rel1
+rest
+rest
+jump rel5
+fsub rel1 rel1 rel0
+cp rel2 rel1
+rest
+rest
+jump rel7
+push
+fdiv rel0 rel2 rel1
+cp rel3 rel0
+rest
+pop
+rest
+jump rel19
+push
+push
+push
+cp rel0 rel3
+stst
+jump abs96
+mov rel2 rel1
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs124
+pop
+pop
+pop
+rest
+jump rel16
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs133
+mov rel3 rel2
+pop
+pop
+pop
+cp rel2 rel0
+pop
+rest
+jump rel16
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs138
+mov rel3 rel2
+pop
+pop
+pop
+cp rel2 rel0
+pop
+rest
+jump rel16
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs143
+mov rel3 rel2
+pop
+pop
+pop
+cp rel2 rel0
+pop
+rest
+jump rel8
+push
+cpc rel0 a05000000
+int rel0 rel1 rel0
+cp rel2 rel0
+rest
+pop
+rest
+jump rel24
+push
+cpc rel0 a6269675F75696E745F746F5F6269675F75646563
+push
+push
+cp rel0 rel2
+stst
+jump abs58
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs217
+mov rel2 rel1
+pop
+pop
+cp rel3 rel0
+rest
+pop
+pop
+rest
+jump rel43
+push
+push
+push
+push
+cp rel0 rel5
+stst
+jump abs225
+mov rel2 rel1
+pop
+pop
+cp rel1 rel0
+push
+push
+push
+push
+cp rel0 rel6
+stst
+jump abs225
+mov rel2 rel1
+pop
+pop
+cp rel1 rel0
+push
+push
+push
+cp rel0 rel6
+push
+cp rel0 rel5
+stst
+jump abs143
+mov rel3 rel2
+pop
+pop
+pop
+cp rel7 rel0
+rest
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel37
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs249
+mov rel3 rel2
+pop
+pop
+pop
+cp rel5 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel84
+push
+push
+cpc rel0 a040000000B00000005000000
+cp rel1 rel0
+push
+cpc rel0 a040000000F00000005000000
+push
+push
+mov rel0 rel4
+push
+cp rel0 rel3
+stst
+jump abs169
+mov rel5 rel1
+pop
+pop
+pop
+push
+cpc rel0 a040000000F00000005000000
+push
+push
+mov rel0 rel5
+push
+cp rel0 rel3
+stst
+jump abs185
+mov rel6 rel1
+pop
+pop
+pop
+push
+cpc rel0 a040000000A00000005000000
+push
+push
+mov rel0 rel6
+push
+cp rel0 rel3
+stst
+jump abs201
+mov rel7 rel1
+pop
+pop
+pop
+push
+push
+cp rel0 rel6
+stst
+jump abs150
+pop
+pop
+push
+cpc rel0 a01000000
+push
+cpc rel0 a02000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs292
+mov rel3 rel2
+pop
+pop
+pop
+cp rel7 rel0
+push
+push
+cp rel0 rel9
+stst
+jump abs150
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs329
+pop

@@ -1,0 +1,1829 @@
+push
+cpc abs0 a00000000
+push
+cpc abs1 a01000000
+push
+cpc abs2 a04000000
+push
+cpc abs3 a08000000
+push
+cpc abs4 a01000000
+push
+cpc abs5 a01000000
+push
+cpc abs6 a10000000
+push
+cpc abs7 aFFFFFFFF
+push
+cpc abs8 a0000000001000000
+push
+push
+jump rel4
+cp rel1 rel0
+rest
+rest
+jump rel5
+cutl rel0 rel0 abs0 abs2
+cp rel1 rel0
+rest
+rest
+jump rel7
+push
+cutl rel0 rel1 abs0 abs3
+cp rel2 rel0
+rest
+pop
+rest
+jump rel7
+push
+cutl rel0 rel1 abs0 abs2
+cp rel2 rel0
+rest
+pop
+rest
+jump rel7
+push
+equal rel0 rel2 rel1
+cp rel3 rel0
+rest
+pop
+rest
+jump rel37
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs44
+mov rel3 rel2
+pop
+pop
+pop
+cp rel5 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel5
+app rel1 rel0
+cp rel2 rel1
+rest
+rest
+jump rel7
+push
+sizeof rel0 rel1
+cp rel2 rel0
+rest
+pop
+rest
+jump rel30
+push
+push
+push
+cp rel0 rel3
+stst
+jump abs93
+mov rel2 rel1
+pop
+pop
+push
+cpc rel0 a00000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs51
+mov rel3 rel2
+pop
+pop
+pop
+cp rel4 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel21
+jumpif rel2 rel1
+jump rel6
+push
+cpc rel0 aFF
+cp rel3 rel0
+rest
+pop
+jumpif rel2 rel0
+jump rel6
+push
+cpc rel0 aFF
+cp rel3 rel0
+rest
+pop
+push
+cpc rel0 a00
+cp rel3 rel0
+rest
+pop
+rest
+jump rel17
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs51
+mov rel3 rel2
+pop
+pop
+pop
+cp rel3 rel0
+rest
+pop
+rest
+jump rel7
+push
+less rel0 rel1 rel2
+cp rel3 rel0
+rest
+pop
+rest
+jump rel37
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs168
+mov rel3 rel2
+pop
+pop
+pop
+cp rel5 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel7
+push
+less rel0 rel2 rel1
+cp rel3 rel0
+rest
+pop
+rest
+jump rel37
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs212
+mov rel3 rel2
+pop
+pop
+pop
+cp rel5 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel43
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs175
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel5
+push
+cp rel0 rel5
+stst
+jump abs151
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs130
+mov rel3 rel2
+pop
+pop
+pop
+cp rel5 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel16
+add rel1 rel1 rel0
+push
+push
+push
+mov rel0 rel4
+stst
+jump abs25
+mov rel4 rel0
+mov rel2 rel1
+pop
+pop
+cp rel3 rel0
+rest
+pop
+rest
+jump rel17
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs88
+mov rel3 rel2
+pop
+pop
+pop
+cp rel3 rel0
+rest
+pop
+rest
+jump rel16
+sub rel1 rel1 rel0
+push
+push
+push
+mov rel0 rel4
+stst
+jump abs25
+mov rel4 rel0
+mov rel2 rel1
+pop
+pop
+cp rel3 rel0
+rest
+pop
+rest
+jump rel19
+push
+cp rel0 rel1
+add rel1 rel1 abs1
+push
+push
+push
+mov rel0 rel3
+stst
+jump abs25
+mov rel3 rel0
+mov rel2 rel1
+pop
+pop
+cp rel3 rel0
+rest
+pop
+pop
+rest
+jump rel7
+push
+lfs rel0 rel2 rel1
+cp rel3 rel0
+rest
+pop
+rest
+jump rel47
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs367
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel3
+stst
+jump abs37
+mov rel2 rel1
+pop
+pop
+cp rel6 rel0
+rest
+pop
+pop
+pop
+pop
+rest
+push
+push
+cpc abs12 a00000080
+cp abs11 abs12
+push
+push
+cpc abs14 aFFFFFF7F
+cp abs13 abs14
+push
+push
+cpc abs16 aFFFFFFFFFFFFFF7F
+push
+push
+push
+cp rel0 abs16
+stst
+jump abs30
+mov abs17 rel1
+pop
+pop
+cp abs15 abs17
+jump rel4
+cpc abs10 a00000000
+int abs10 rel0 abs10
+rest
+jump rel9
+push
+push
+cp rel0 rel2
+stst
+jump abs442
+pop
+pop
+rest
+jump rel61
+jumpif rel2 rel1
+jump rel2
+rest
+push
+push
+push
+cp rel0 rel5
+stst
+jump abs100
+mov rel2 rel1
+pop
+pop
+jumpif rel38 rel0
+push
+cpc rel0 a3A20
+push
+push
+push
+cp rel0 rel3
+push
+cp rel0 rel6
+stst
+jump abs315
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel8
+push
+cp rel0 rel4
+stst
+jump abs315
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs446
+pop
+pop
+pop
+pop
+pop
+jump rel8
+push
+push
+cp rel0 rel3
+stst
+jump abs446
+pop
+pop
+stop
+pop
+rest
+jump rel18
+push
+cpc rel0 a
+push
+push
+cp rel0 rel2
+push
+cp rel0 rel5
+push
+cp rel0 rel5
+stst
+jump abs455
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel18
+push
+cpc rel0 a417373657274696F6E206661696C757265
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs455
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel15
+push
+cpc rel0 a
+push
+push
+cp rel0 rel2
+push
+cp rel0 rel4
+stst
+jump abs534
+pop
+pop
+pop
+pop
+rest
+jump rel4
+cp rel3 rel1
+rest
+rest
+jump rel39
+push
+push
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+stst
+jump abs567
+mov rel7 rel2
+mov rel6 rel1
+mov rel5 rel0
+mov rel4 rel3
+pop
+pop
+pop
+pop
+push
+cpc rel0 a00000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs151
+mov rel3 rel2
+pop
+pop
+pop
+cp rel6 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel6
+push
+cpc rel0 a00000000
+cp rel2 rel0
+pop
+rest
+jump rel41
+push
+push
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+stst
+jump abs571
+mov rel7 rel2
+mov rel6 rel1
+mov rel5 rel0
+mov rel4 rel3
+pop
+pop
+pop
+pop
+jumpif rel2 rel0
+jump rel2
+rest
+dealloc rel3
+push
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+stst
+jump abs610
+mov rel7 rel2
+mov rel6 rel1
+mov rel5 rel0
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel46
+push
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+stst
+jump abs616
+mov rel7 rel2
+mov rel6 rel1
+mov rel5 rel0
+pop
+pop
+pop
+pop
+push
+cpc rel0 a00000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs175
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs552
+pop
+pop
+push
+alloc rel0 rel3
+cp rel6 rel0
+cp rel5 rel3
+pop
+pop
+pop
+rest
+jump rel37
+push
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+stst
+jump abs610
+mov rel7 rel2
+mov rel6 rel1
+mov rel5 rel0
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+push
+mov rel0 rel5
+push
+cp rel0 rel5
+stst
+jump abs657
+mov rel8 rel3
+mov rel7 rel2
+mov rel6 rel1
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel69
+push
+cpc rel0 a00000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs256
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs552
+pop
+pop
+push
+push
+push
+mov rel0 rel8
+push
+mov rel0 rel8
+push
+mov rel0 rel8
+stst
+jump abs567
+mov rel10 rel2
+mov rel9 rel1
+mov rel8 rel0
+mov rel4 rel3
+pop
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel6
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs552
+pop
+pop
+push
+add rel0 rel8 rel5
+cp rel9 hrel0
+rest
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel68
+push
+cpc rel0 a00000000
+push
+push
+push
+cp rel0 rel5
+push
+cp rel0 rel4
+stst
+jump abs256
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs552
+pop
+pop
+push
+push
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+stst
+jump abs567
+mov rel11 rel2
+mov rel10 rel1
+mov rel9 rel0
+mov rel4 rel3
+pop
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel7
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+cp rel0 rel2
+stst
+jump abs552
+pop
+pop
+push
+add rel0 rel9 rel6
+cp hrel0 rel5
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel18
+push
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+stst
+jump abs610
+mov rel6 rel2
+mov rel5 rel1
+mov rel4 rel0
+pop
+pop
+pop
+pop
+rest
+jump rel4
+cp rel5 rel1
+rest
+rest
+jump rel23
+push
+push
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+stst
+jump abs567
+mov rel9 rel2
+mov rel8 rel1
+mov rel7 rel0
+mov rel4 rel3
+pop
+pop
+pop
+pop
+cp rel6 rel0
+rest
+pop
+rest
+jump rel108
+push
+cpc rel0 a00000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs256
+mov rel3 rel2
+pop
+pop
+pop
+push
+cpc rel0 a676574
+push
+push
+cp rel0 rel3
+push
+cp rel0 rel3
+stst
+jump abs516
+pop
+pop
+pop
+push
+push
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+stst
+jump abs895
+mov rel15 rel4
+mov rel14 rel3
+mov rel13 rel2
+mov rel12 rel1
+mov rel11 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel7
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+push
+cpc rel0 a676574
+push
+push
+cp rel0 rel3
+push
+cp rel0 rel3
+stst
+jump abs516
+pop
+pop
+pop
+push
+push
+push
+mov rel0 rel14
+push
+mov rel0 rel14
+push
+mov rel0 rel14
+push
+cp rel0 rel12
+stst
+jump abs740
+mov rel17 rel3
+mov rel16 rel2
+mov rel15 rel1
+mov rel5 rel4
+pop
+pop
+pop
+pop
+pop
+cp rel13 rel0
+rest
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel106
+push
+cpc rel0 a00000000
+push
+push
+push
+cp rel0 rel5
+push
+cp rel0 rel4
+stst
+jump abs256
+mov rel3 rel2
+pop
+pop
+pop
+push
+cpc rel0 a736574
+push
+push
+cp rel0 rel3
+push
+cp rel0 rel3
+stst
+jump abs516
+pop
+pop
+pop
+push
+push
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+stst
+jump abs895
+mov rel16 rel4
+mov rel15 rel3
+mov rel14 rel2
+mov rel13 rel1
+mov rel12 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel8
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+push
+cpc rel0 a736574
+push
+push
+cp rel0 rel3
+push
+cp rel0 rel3
+stst
+jump abs516
+pop
+pop
+pop
+push
+push
+mov rel0 rel14
+push
+mov rel0 rel14
+push
+mov rel0 rel14
+push
+cp rel0 rel12
+push
+cp rel0 rel12
+stst
+jump abs809
+mov rel18 rel4
+mov rel17 rel3
+mov rel16 rel2
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel18
+push
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+stst
+jump abs616
+mov rel8 rel2
+mov rel7 rel1
+mov rel6 rel0
+pop
+pop
+pop
+pop
+rest
+jump rel236
+push
+push
+push
+push
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+push
+cp rel0 rel8
+stst
+jump abs703
+mov rel7 rel3
+mov rel6 rel2
+mov rel5 rel1
+pop
+pop
+pop
+pop
+pop
+push
+push
+cpc rel0 a00000000
+cp rel1 rel0
+push
+push
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+stst
+jump abs895
+mov rel17 rel4
+mov rel16 rel3
+mov rel15 rel2
+mov rel14 rel1
+mov rel13 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel5
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+jumpif rel2 rel0
+jump rel103
+push
+push
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+push
+cp rel0 rel11
+stst
+jump abs922
+mov rel20 rel5
+mov rel19 rel4
+mov rel18 rel3
+mov rel17 rel2
+mov rel16 rel1
+mov rel7 rel6
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+push
+cp rel0 rel9
+push
+cp rel0 rel6
+stst
+jump abs809
+mov rel13 rel4
+mov rel12 rel3
+mov rel11 rel2
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel5
+stst
+jump abs348
+mov rel5 rel0
+pop
+pop
+push
+push
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+push
+mov rel0 rel15
+stst
+jump abs895
+mov rel19 rel4
+mov rel18 rel3
+mov rel17 rel2
+mov rel16 rel1
+mov rel15 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel7
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+cp rel2 rel0
+pop
+pop
+jump rel-103
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel10
+push
+mov rel0 rel10
+push
+mov rel0 rel10
+push
+mov rel0 rel10
+push
+mov rel0 rel10
+stst
+jump abs1136
+mov rel14 rel4
+mov rel13 rel3
+mov rel12 rel2
+mov rel11 rel1
+mov rel10 rel0
+pop
+pop
+pop
+pop
+pop
+pop
+cp rel8 rel2
+cp rel7 rel1
+cp rel6 rel0
+push
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+stst
+jump abs877
+mov rel6 rel2
+mov rel5 rel1
+mov rel4 rel0
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+push
+mov rel0 rel4
+stst
+jump abs616
+mov rel6 rel2
+mov rel5 rel1
+mov rel4 rel0
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel29
+push
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+cp rel0 rel7
+stst
+jump abs1154
+mov rel12 rel5
+mov rel11 rel4
+mov rel10 rel3
+mov rel9 rel2
+mov rel8 rel1
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel32
+push
+cpc rel0 a04000000
+push
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+mov rel0 rel7
+push
+cp rel0 rel7
+stst
+jump abs1390
+mov rel12 rel5
+mov rel11 rel4
+mov rel10 rel3
+mov rel9 rel2
+mov rel8 rel1
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel222
+push
+push
+push
+mov rel0 rel8
+push
+mov rel0 rel8
+push
+mov rel0 rel8
+push
+mov rel0 rel8
+push
+mov rel0 rel8
+stst
+jump abs895
+mov rel12 rel4
+mov rel11 rel3
+mov rel10 rel2
+mov rel9 rel1
+mov rel8 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+push
+mov rel0 rel9
+stst
+jump abs899
+mov rel13 rel4
+mov rel12 rel3
+mov rel11 rel2
+mov rel10 rel1
+mov rel9 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs151
+mov rel3 rel2
+pop
+pop
+pop
+jumpif rel2 rel0
+jump rel71
+push
+push
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+stst
+jump abs899
+mov rel15 rel4
+mov rel14 rel3
+mov rel13 rel2
+mov rel12 rel1
+mov rel11 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+cpc rel0 a01000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs374
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+cp rel0 rel7
+stst
+jump abs1154
+mov rel18 rel5
+mov rel17 rel4
+mov rel16 rel3
+mov rel15 rel2
+mov rel14 rel1
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel7
+stst
+jump abs348
+mov rel7 rel0
+pop
+pop
+push
+push
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+push
+mov rel0 rel11
+stst
+jump abs895
+mov rel15 rel4
+mov rel14 rel3
+mov rel13 rel2
+mov rel12 rel1
+mov rel11 rel0
+mov rel6 rel5
+pop
+pop
+pop
+pop
+pop
+pop
+push
+cpc rel0 a01000000
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs332
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+mov rel0 rel13
+push
+cp rel0 rel7
+push
+cp rel0 rel14
+stst
+jump abs1030
+mov rel19 rel6
+mov rel18 rel5
+mov rel17 rel4
+mov rel16 rel3
+mov rel15 rel2
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+jump rel153
+push
+push
+push
+push
+push
+push
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+stst
+jump abs1419
+mov rel10 rel4
+mov rel9 rel3
+mov rel8 rel2
+mov rel7 rel1
+mov rel6 rel0
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+cpc rel0 a00000000
+cp rel1 rel0
+push
+cpc rel0 a0A000000
+push
+push
+push
+cp rel0 rel5
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+jumpif rel2 rel0
+jump rel70
+push
+cpc rel0 a01000000
+push
+push
+push
+cp rel0 rel7
+push
+cp rel0 rel4
+stst
+jump abs299
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+push
+mov rel0 rel12
+push
+cp rel0 rel7
+stst
+jump abs1451
+mov rel17 rel5
+mov rel16 rel4
+mov rel15 rel3
+mov rel14 rel2
+mov rel13 rel1
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel5
+stst
+jump abs348
+mov rel5 rel0
+pop
+pop
+push
+cpc rel0 a0A000000
+push
+push
+push
+cp rel0 rel7
+push
+cp rel0 rel4
+stst
+jump abs219
+mov rel3 rel2
+pop
+pop
+pop
+cp rel2 rel0
+pop
+pop
+jump rel-70
+pop
+pop
+pop
+pop
+push
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+push
+mov rel0 rel6
+stst
+jump abs1136
+mov rel10 rel4
+mov rel9 rel3
+mov rel8 rel2
+mov rel7 rel1
+mov rel6 rel0
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs1673
+pop

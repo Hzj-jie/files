@@ -1,0 +1,28 @@
+jump rel7
+push
+add rel0 rel3 rel2
+cp rel4 rel0
+rest
+pop
+rest
+push
+push
+push
+push
+cpc abs0 a64000000
+cpc abs1 aC8000000
+cpc abs2 a10270000
+push
+push
+cp rel0 abs0
+push
+cp rel0 abs1
+push
+cp rel0 abs2
+stst
+jump abs1
+mov abs3 rel3
+pop
+pop
+pop
+pop

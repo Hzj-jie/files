@@ -1,0 +1,222 @@
+push
+cpc abs0 a00000000
+push
+cpc abs1 a01000000
+push
+cpc abs2 a04000000
+push
+cpc abs3 a08000000
+push
+cpc abs4 a01000000
+push
+cpc abs5 a01000000
+push
+cpc abs6 a10000000
+push
+cpc abs7 aFFFFFFFF
+push
+cpc abs8 a0000000001000000
+push
+push
+jump rel4
+cp rel1 rel0
+rest
+rest
+jump rel7
+push
+equal rel0 rel2 rel1
+cp rel3 rel0
+rest
+pop
+rest
+jump rel37
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+stst
+jump abs21
+mov rel2 rel1
+pop
+pop
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs25
+mov rel3 rel2
+pop
+pop
+pop
+cp rel5 rel0
+rest
+pop
+pop
+pop
+rest
+jump rel14
+jumpif rel2 rel0
+jump rel6
+push
+cpc rel0 a00
+cp rel2 rel0
+rest
+pop
+push
+cpc rel0 aFF
+cp rel2 rel0
+rest
+pop
+rest
+jump rel17
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs32
+mov rel3 rel2
+pop
+pop
+pop
+cp rel3 rel0
+rest
+pop
+rest
+jump rel27
+push
+push
+push
+cp rel0 rel4
+push
+cp rel0 rel4
+stst
+jump abs83
+mov rel3 rel2
+pop
+pop
+pop
+push
+push
+push
+cp rel0 rel3
+stst
+jump abs69
+mov rel2 rel1
+pop
+pop
+cp rel4 rel0
+rest
+pop
+pop
+rest
+jump rel8
+push
+cpc rel0 a06000000
+int rel0 abs10 rel0
+cp rel1 rel0
+rest
+pop
+rest
+jump rel6
+cpc abs10 a07000000
+int abs10 rel0 abs10
+cp rel1 rel0
+rest
+rest
+jump rel7
+push
+cp rel0 abs7
+cp rel1 rel0
+rest
+pop
+rest
+jump rel71
+push
+push
+push
+stst
+jump abs127
+mov rel1 rel0
+pop
+cp rel1 rel0
+push
+push
+stst
+jump abs141
+mov rel1 rel0
+pop
+push
+push
+push
+cp rel0 rel5
+push
+cp rel0 rel4
+stst
+jump abs100
+mov rel3 rel2
+pop
+pop
+pop
+jumpif rel2 rel0
+jump rel38
+push
+push
+cp rel0 rel5
+stst
+jump abs135
+pop
+pop
+push
+push
+stst
+jump abs127
+mov rel1 rel0
+pop
+cp rel4 rel0
+pop
+push
+push
+stst
+jump abs141
+mov rel1 rel0
+pop
+push
+push
+push
+cp rel0 rel7
+push
+cp rel0 rel4
+stst
+jump abs100
+mov rel3 rel2
+pop
+pop
+pop
+cp rel2 rel0
+pop
+pop
+jump rel-38
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs148
+pop

@@ -1,0 +1,72 @@
+push
+push
+cpc abs1 a00000000
+push
+cpc abs2 a01000000
+push
+cpc abs3 a02000000
+push
+cpc abs4 a03000000
+jump rel3
+sapp abs0 rel0
+rest
+jump rel3
+sapp abs0 rel0
+rest
+jump rel3
+sapp abs0 rel0
+rest
+push
+cpc abs5 a64000000
+push
+cpc abs6 a01000000
+push
+less abs7 abs6 abs5
+jumpif rel2 abs7
+equal abs7 abs6 abs5
+jumpif rel2 abs7
+jump rel45
+push
+cpc rel0 a03000000
+int rel0 abs2 rel0
+push
+div rel0 rel1 rel1 abs4
+push
+equal rel0 rel2 abs1
+jumpif rel2 rel0
+jump rel8
+push
+push
+cp rel0 abs6
+stst
+jump abs10
+pop
+pop
+equal rel0 rel2 abs2
+jumpif rel2 rel0
+jump rel8
+push
+push
+cp rel0 abs6
+stst
+jump abs13
+pop
+pop
+equal rel0 rel2 abs3
+jumpif rel2 rel0
+jump rel8
+push
+push
+cp rel0 abs6
+stst
+jump abs16
+pop
+pop
+add abs6 abs6 abs2
+less abs7 abs6 abs5
+jumpif rel2 abs7
+equal abs7 abs6 abs5
+pop
+pop
+pop
+jump rel-45
