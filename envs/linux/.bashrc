@@ -168,3 +168,6 @@ fi
 
 # Set the Hi status to be displayed as part of the prompt. #!>>HI<<!#
 PS1="\$(type __hi_prompt_large &> /dev/null && __hi_prompt_large)${PS1}" #!>>HI<<!#
+
+# Created by `pipx` on 2026-06-28 22:10:38
+export PATH="$PATH:/home/hzj-jie/.local/bin"
