@@ -26,3 +26,7 @@ AUTORUN="$HOME/autorun"
 for i in $(ls -1 $AUTORUN/*.sh); do
   sh "$i"
 done
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/zijiehe/.local/bin:$PATH"
