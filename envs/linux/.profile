@@ -27,6 +27,6 @@ for i in $(ls -1 $AUTORUN/*.sh); do
   sh "$i"
 done
 
+# Created by `pipx` on 2026-06-28 22:10:38
+export PATH="$PATH:/home/hzj-jie/.local/bin"
 
-# Added by Antigravity CLI installer
-export PATH="/home/zijiehe/.local/bin:$PATH"

@@ -127,8 +127,9 @@ if [ -d /google/src/head/ ]; then
   export PATH=$PATH:/google/src/head/depot/google3/experimental/users/zijiehe/bash/:
 fi
 if [ -d ~/chromium/depot_tools ]; then
+  export PATH=$PATH:.jiri_root/bin/
   export PATH=$PATH:~/chromium/depot_tools
-  export PATH=$PATH:.jiri_root/bin/:third_party/fuchsia-sdk/sdk/tools/x64/:third_party/fuchsia/sdk/linux/tools/x64
+  export PATH=$PATH:third_party/fuchsia-sdk/sdk/tools/x64/:third_party/fuchsia/sdk/linux/tools/x64:fuchsia/sdk/linux/tools/x64/
 fi
 if [ -d ~/git/android-ndk ]; then
   export PATH=$PATH:~/git/android-ndk/:~/git/android-sdk-linux/tools/:~/git/android-ndk/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/:
@@ -149,7 +150,9 @@ if [ -f '/usr/local/google/home/zijiehe/Downloads/google-cloud-sdk/completion.ba
 
 export SKIP_GCE_AUTH_FOR_GIT=1
 
-export BOTO_CONFIG=$(gcloud info --format "value(config.paths.global_config_dir)")/legacy_credentials/$(gcloud config list --format="value(core.account)")/.boto
+if which gcloud >/dev/null 2>&1; then
+  export BOTO_CONFIG=$(gcloud info --format "value(config.paths.global_config_dir)")/legacy_credentials/$(gcloud config list --format="value(core.account)")/.boto
+fi
 
 if [ -d ~/envs/init ]; then
   for file in ~/envs/init/*; do
@@ -157,9 +160,14 @@ if [ -d ~/envs/init ]; then
   done
 fi
 
+if [ -d ~/init ]; then
+  for file in ~/init/*; do
+    . $file
+  done
+fi
+
 # Set the Hi status to be displayed as part of the prompt. #!>>HI<<!#
 PS1="\$(type __hi_prompt_large &> /dev/null && __hi_prompt_large)${PS1}" #!>>HI<<!#
 
-
-# Added by Antigravity CLI installer
-export PATH="/home/zijiehe/.local/bin:$PATH"
+# Created by `pipx` on 2026-06-28 22:10:38
+export PATH="$PATH:/home/hzj-jie/.local/bin"

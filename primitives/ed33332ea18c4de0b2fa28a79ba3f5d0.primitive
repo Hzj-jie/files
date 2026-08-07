@@ -1,0 +1,55 @@
+push
+cpc abs0 a00000000
+push
+cpc abs1 a01000000
+push
+cpc abs2 a04000000
+push
+cpc abs3 a08000000
+push
+cpc abs4 a01000000
+push
+cpc abs5 a01000000
+push
+cpc abs6 a10000000
+push
+cpc abs7 aFFFFFFFF
+push
+cpc abs8 a0000000001000000
+push
+push
+jump rel6
+push
+cpc rel0 a00000000
+int rel0 rel1 rel0
+pop
+rest
+jump rel25
+push
+cpc rel0 a7374645F6F75742028205F5F53544154454D454E545F5F2029203B
+push
+push
+cp rel0 rel2
+stst
+jump abs21
+pop
+pop
+push
+push
+cpc rel0 a737472696E672073203D205F5F53544154454D454E545F5F203B
+cp rel1 rel0
+push
+push
+cp rel0 rel3
+stst
+jump abs21
+pop
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs27
+pop

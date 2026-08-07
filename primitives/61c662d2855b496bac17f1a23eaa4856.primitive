@@ -1,0 +1,31 @@
+jump rel4
+cp rel1 rel0
+rest
+rest
+jump rel23
+push
+push
+cpc rel0 a48656C6C6F20576F726C64
+cp rel1 rel0
+push
+push
+push
+push
+cp rel0 rel5
+stst
+jump abs1
+mov rel2 rel1
+pop
+pop
+cp rel1 rel0
+cpc rel3 a00000000
+int rel3 rel1 rel3
+pop
+pop
+pop
+pop
+rest
+push
+stst
+jump abs5
+pop

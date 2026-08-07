@@ -1,0 +1,74 @@
+jump rel8
+push
+cutl rel0 rel4 rel2 rel1
+app rel3 rel0
+cp rel5 rel3
+rest
+pop
+rest
+push
+push
+push
+jump rel7
+push
+cutl rel0 rel3 rel2 rel1
+app abs1 rel0
+rest
+pop
+rest
+cpc abs0 a68656C6C6F20776F726C640A
+push
+cpc abs3 a00000000
+push
+cpc abs4 a01000000
+push
+sizeof abs5 abs0
+push
+cp abs6 abs5
+push
+less abs7 abs3 abs6
+jumpif rel2 abs7
+jump rel17
+sub abs6 abs6 abs4
+push
+push
+cp rel0 abs0
+push
+cp rel0 abs6
+push
+cp rel0 abs4
+stst
+jump abs12
+pop
+pop
+pop
+pop
+less abs7 abs3 abs6
+jump rel-17
+cp abs6 abs5
+less abs7 abs3 abs6
+jumpif rel2 abs7
+jump rel24
+sub abs6 abs6 abs4
+push
+push
+push
+cp rel0 abs0
+push
+cp rel0 abs2
+push
+cp rel0 abs6
+push
+cp rel0 abs4
+stst
+jump abs1
+mov rel5 rel4
+pop
+pop
+pop
+pop
+pop
+mov abs2 rel0
+less abs7 abs3 abs6
+pop
+jump rel-24

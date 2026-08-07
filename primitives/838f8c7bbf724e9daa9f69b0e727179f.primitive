@@ -1,0 +1,28 @@
+push
+cpc abs0 aFF
+jumpif rel2 abs0
+jump rel25
+push
+cpc rel0 a64000000
+push
+alloc rel0 rel1
+push
+cpc rel0 a63000000
+push
+add rel0 rel2 rel1
+cp hrel0 rel1
+push
+push
+add rel0 rel4 rel3
+cp rel1 hrel0
+push
+cpc rel0 a07000000
+int rel0 rel2 rel0
+pop
+pop
+pop
+pop
+pop
+dealloc rel0
+pop
+pop

@@ -1,0 +1,6 @@
+jump rel2
+rest
+push
+stst
+jump abs1
+pop

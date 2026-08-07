@@ -1,0 +1,15 @@
+push
+cpc abs0 aE8030000
+push
+cpc abs1 a01000000
+push
+push
+cpc abs2 a00000000
+push
+less abs4 abs2 abs0
+jumpif rel2 abs4
+jump rel5
+add abs2 abs2 abs1
+add abs3 abs3 abs2
+less abs4 abs2 abs0
+jump rel-5
